@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="descriptif">
+      <attribute name="DCdate"/>
+      <optional>
+        <attribute name="DCdateModif"/>
+      </optional>
+      <element name="presentation">
+        <oneOrMore>
+          <ref name="para"/>
+        </oneOrMore>
+      </element>
+      <oneOrMore>
+        <element name="section">
+          <optional>
+            <attribute name="commentaire"/>
+          </optional>
+          <optional>
+            <attribute name="lien">
+              <data type="anyURI"/>
+            </attribute>
+          </optional>
+          <attribute name="nom"/>
+          <oneOrMore>
+            <ref name="element"/>
+          </oneOrMore>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+  
+  <define name="element">
+    <element name="element">
+      <attribute name="nom"/>
+      <attribute name="tech"/>
+      <attribute name="url">
+        <data type="anyURI"/>
+      </attribute>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="lien"/>          
+          <ref name="acronyme"/>
+        </choice>
+      </oneOrMore>
+    </element>    
+  </define>
+  
+  <define name="lien">
+    <element name="lien">
+      <attribute name="url"/>
+      <text/>
+    </element>
+  </define>
+  
+  <define name="para">
+    <element name="para">
+      <optional>
+        <attribute name="titre"><text/></attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="acronyme"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="acronyme">
+    <element name="acronyme">
+      <text/>
+    </element>
+  </define>
+</grammar>

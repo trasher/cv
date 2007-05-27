@@ -1,0 +1,83 @@
+body{
+	background-color: #FFF;
+	color:#000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+a, a:link, a:visited{
+	color:#666;
+	background-color:#fff;
+	text-decoration:underline;
+}
+a:hover{
+	color:#333;
+	background-color:#fff;
+	text-decoration:underline;
+}
+.content{
+	width:80%;
+	margin:0 auto;
+	position:relative;
+}
+.cv{
+	width:90%;
+	margin:0 auto;
+}
+h1{
+	text-align:center;
+	border-bottom:1px solid;
+	margin-bottom:20px;
+	color:blue;
+	background-color:#fff;
+	font-size:2.2em;
+}
+h2{
+	color: blue;
+	background-color:#fff;
+	border-top:0;
+	padding-bottom: 5px;
+	padding-top:10px;
+	clear:both;
+}
+h3{
+	color: blue;
+	background-color:#fff;
+	border-top:0;
+	padding-bottom: 2px;
+	padding-top:5px;
+	text-align:center;
+}
+hr{
+	border:1px black solid;
+	clear:both;
+}
+.left{
+	float:left;
+}
+.right{
+	text-align:right;
+}
+.cv .left{
+	float:left;
+	width:150px;
+}
+.cv .right{
+	margin-left:155px;
+	text-align:justify;
+}
+.cv .big_block{
+	width:200px;
+}
+.cv .big_left_margin{
+	margin-left:205px;
+}
+.cv .fright{
+	float:right;
+}
+.cv .online{
+	text-align:justify;
+}
+.bottom{
+	margin-top: 30px;
+	text-align: center;
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="cv.xsl" type="text/xsl"?>
+<cv titre="Développeur\nAdministrateur système">
+	<coordonnees>
+		<nom>CWIKLINSKI</nom><prenom>Johan</prenom>
+		<adresse>391 bis rue Morel</adresse>
+		<cp>59500</cp><ville>DOUAI</ville>
+		<tel>03 27 98 49 05</tel>
+		<tel>06 29 61 85 88</tel>
+		<url>http://www.x-tnd.be</url>
+		<mail>johan.cwi@x-tnd.be</mail>
+		<comment>26 ans, vie maritale</comment>
+	</coordonnees>
+	<competences nom="COMPÉTENCES PROFESSIONNELLES">
+		<competence nom="Développement">
+			<ligne>Conception et réalisation d'applications Java <em>(JDBC, Swing, JDOM)</em></ligne>
+			<ligne>Création de sites internet dynamiques <em>(XHTML, CSS, JavaScript, XML, XSL, respect des standards)</em></ligne>
+			<ligne>Création d'applications web en PHP <em>(versions 4 et 5)</em></ligne>
+			<ligne>Conception et administration de bases de données SQL <em>(MySQL, PostgreSQL, Access)</em></ligne>
+		</competence>
+		<competence nom="Technique">
+			<ligne>Installation et administration de réseaux TCP/IP, Ethernet, Wi-Fi</ligne>
+			<ligne>Administration de serveurs <em>(Apache, Samba)</em></ligne>
+			<ligne>Assemblage et configuration de PC</ligne>
+			<ligne>Installation, configuration et administration de systèmes d'exploitation : GNU/Linux <em>(RedHat, Debian)</em>, Windows <em>(98, 2000, XP)</em></ligne>
+		</competence>
+		<competence nom="Divers">
+			<ligne>Bases de Flash, Gimp <em>(Photoshop)</em> et cryptographie</ligne>
+			<ligne>Vente, secrétariat et comptabilité</ligne>
+		</competence>
+	</competences>
+	<titre nom="EXPÉRIENCE PROFESSIONNELLE">
+		<ligne>
+			<annee>2004-2006</annee>
+			<libelle>E.U.R.L. HARDWARE et COMMUNICATION, Douai</libelle>
+			<poste>Responsable système et programmation</poste>
+			
+		</ligne>
+		<ligne>
+			<annee>2002-2003</annee>
+			<libelle>S.A.R.L. NEUROSYNTHETIC, Lille</libelle>
+			<poste>Développeur web</poste>
+		</ligne>
+		<ligne>
+			<annee>2000-2002</annee>
+			<libelle>S.A. SOLIBATI ET DÉCOR, Escautpont</libelle>
+			<poste>Responsable informatique</poste>
+		</ligne>
+		<ligne>
+			<annee>1998-2000</annee>
+			<libelle>DEFOORT NATURAVIE, Valenciennes</libelle>
+			<poste>Gestion Informatique</poste>
+		</ligne>
+		<ligne>
+			<annee>1999</annee>
+			<libelle>I.T.E. INFORMATIQUE, Valenciennes</libelle>
+			<poste>Technicien informatique</poste>
+		</ligne>
+		<ligne>
+			<annee>1997</annee>
+			<libelle>S.A.R.L. SOLIDECO, Escautpont</libelle>
+			<poste>Responsable informatique, comptable</poste>
+		</ligne>
+	</titre>
+	<titre nom="FORMATION">
+		<ligne>
+			<annee>1996</annee>
+			<libelle>BEP ACC (Administration Commerciale et Comptabilité).</libelle>
+		</ligne>
+		<ligne>
+			<annee>1998</annee>
+			<libelle>Baccalauréat STT (Sciences et Techniques Tertiaires) option Comptabilité / Gestion, mention A.B.</libelle>
+		</ligne>
+		<ligne>
+			<annee>2000</annee>
+			<libelle>Niveau BTS Informatique de Gestion.</libelle>
+		</ligne>
+		<ligne>
+			<annee>2000-2006</annee>
+			<libelle>Formation autodidacte en informatique (système, réseau et programmation).</libelle>
+		</ligne>
+	</titre>
+	<titre nom="DIVERS">
+		<ligne>
+			<annee>Langues</annee>
+			<libelle>Anglais : lu, parlé, écrit\nNotions d'espagnol</libelle>
+		</ligne>
+		<ligne>
+			<annee>Loisirs</annee>
+			<libelle>Informatique, lecture, vidéo, graphisme, musique</libelle>
+		</ligne>
+	</titre>
+</cv>

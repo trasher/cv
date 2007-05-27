@@ -1,0 +1,157 @@
+body{
+	background-color: #6699CC;
+	color: black;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+}
+img{
+	border:0;
+}
+a{
+	color:#FFAE4C;
+	background:inherit;
+}
+a:visited{}
+a:hover{
+	color:#CF8E3E;
+	background:inherit;
+}
+h1{
+	font-size:1.3em;
+	color:#6699CC;
+	background-color:inherit;
+	text-decoration:underline;
+	text-align:center;
+	clear:both;
+}
+h2{
+	font-size:1.2em;
+	background-color:#6699CC;
+	color:white;
+	text-align:right;
+	margin:0 0 5px 0;
+	padding:3px 5px 3px 0;
+}
+h2 a, h2 a:hover{
+	color:white;
+	background:transparent;
+}
+h2 span{
+	font-size:0.8em;
+	display:block;
+}
+p{
+	text-align:justify;
+	font-size:0.9em;
+	line-height:1.5em;
+}
+acronym{
+	border-bottom:1px dotted;
+}
+#content{
+	background-color:white;
+	color:black;
+	margin:5px;
+	padding:5px;
+	position:relative;
+}
+#header{
+	float:left;
+	height:250px;
+	width:250px;
+	background:url("../images/blue/logo.jpg") top left no-repeat;
+	position:relative;
+}
+#summary{
+	position:relative;
+	float:left;
+	clear:left;
+	list-style-type:upper-roman;
+	font-weight:bold;
+	margin:5px 0 5px 0;
+	padding:0 0 0 40px;
+	width:208px;
+	border:1px #6699CC dashed;
+}
+#presentation{
+	float:left;
+	clear:left;
+	width:244px;
+	border:1px #6699CC dashed;
+	padding:2px;
+	position:relative;
+}
+#descriptif{
+	margin-left:260px;
+}
+.parts{
+	padding:3px;
+	margin:3px 0;
+}
+.parts:target{
+	border:1px #FFAE4C dotted;
+}
+.parts:target h2{
+	background:url("../images/blue/smalltux.png") left center no-repeat;
+	background-color:#6699CC;
+}
+
+.parts p{}
+.parts a{
+	font-weight:bold;
+	display:block;
+	text-decoration:none;
+	position:relative;
+	text-align:right;
+}
+.parts a span{
+	font-size:0.85em;
+	display:block;
+}
+.parts a:hover{
+	text-decoration:underline;
+}
+.parts a.normal{
+	display:inline;
+	font-weight:normal;
+}
+#w3c{
+	clear:both;
+	margin-top:10px;
+	font-size:0.8em;
+	vertical-align:top;
+	text-align: center;
+}
+#w3c p{
+	margin:0.3em 0.1em 1em 0.1em;
+	padding:0;
+	text-indent:0;
+}
+#w3c a{
+	text-decoration:none;
+}
+#w3c ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#w3c li{
+	display:inline;
+}
+#w3c li span{
+	display:none;
+}
+#styleswitcher{
+	float:left;
+	clear:left;
+	margin:3px 0 0 0;
+	padding:0 2px 0 0;
+	position:relative;
+	text-align:right;
+	border:1px #6699CC dashed;
+	width:246px;
+}
+#styleswitcher li{
+	list-style-type:none;
+	margin:0;
+}
