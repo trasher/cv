@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" exclude-result-prefixes="php">
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" exclude-result-prefixes="php">
 <xsl:output method="xml" doctype-public="-//W3C//DTD XHTML 1.1//EN" doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" encoding="ISO-8859-1" indent="yes" omit-xml-declaration="yes"  />
 
 <xsl:param name="space" select="' '"/>
@@ -9,7 +9,7 @@
 <xsl:param name="css"/>
 
 <xsl:template match="/">
-	<html xml:lang="fr">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
 		<head>
 			<title>...::: Johan Cwiklinski - Curriculum Vitae :::...</title>
 			<meta name="Author" content="Johan CWIKLINSKI"/>

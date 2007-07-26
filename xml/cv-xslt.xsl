@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:output method="xml" encoding="ISO-8859-1" indent="yes" omit-xml-declaration="yes"/>
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="xml" encoding="ISO-8859-15" indent="yes" omit-xml-declaration="yes"/>
 <xsl:template match="/">
-	<html>
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
 		<head>
 			<title>X-TND ...::: Johan Cwiklinski - Curriculum Vitae :::...</title>
 			<meta name="Author" content="Johan CWIKLINSKI"/>
 			<meta name="keywords" content="curriculum, vitae, johan, cwiklinski, programmeur, webmaster, webmestre, java, php, linux, redhat, red, hat, reseau, réseau, windows, lan, securite, sécurité, logiciel, open, source, programmation, trasher"/>
-			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15"/>
 			<link rel="shortcut icon" href="http://x-tnd.be/favicon.ico"/>
 			<link type="text/css" rel="stylesheet"  href="templates/cv.css"/>
 		</head>
