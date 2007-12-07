@@ -13,28 +13,32 @@
 	</coordonnees>
 	<competences nom="COMPÉTENCES PROFESSIONNELLES">
 		<competence nom="Développement">
-			<ligne>Conception et réalisation d'applications Java <em>(JDBC, Swing, JDOM)</em></ligne>
-			<ligne>Création de sites internet dynamiques <em>(XHTML, CSS, JavaScript, XML, XSL, respect des standards)</em></ligne>
+			<ligne>Conception et réalisation d'applications Java <em>(JDBC, Swing, JDOM, Servlets, Lucene, Exist)</em></ligne>
+			<ligne>Conception et réalisation de sites web via Apache Tomcat/Cocoon, bases de données XML</ligne>
+			<ligne>Conception et administration de bases de données SQL <em>(MySQL, PostgreSQL, Access, HSQLDB, Derby)</em></ligne>
+			<ligne>Création de sites internet dynamiques <em>(XHTML, CSS, JavaScript, XML, XSL, SAX, DOM, FO, AJAX, respect des standards)</em></ligne>
 			<ligne>Création d'applications web en PHP <em>(versions 4 et 5)</em></ligne>
-			<ligne>Conception et administration de bases de données SQL <em>(MySQL, PostgreSQL, Access)</em></ligne>
-			<ligne>Conception et réalisation de sites web via Apache Tomcat/Cocoon et SDX</ligne>
 		</competence>
 		<competence nom="Technique">
 			<ligne>Installation et administration de réseaux TCP/IP, Ethernet, Wi-Fi</ligne>
-			<ligne>Administration de serveurs <em>(Apache, Samba)</em></ligne>
-			<ligne>Assemblage et configuration de PC</ligne>
-			<ligne>Configuration et administration de systèmes d'exploitation : GNU/Linux <em>(RedHat, Debian)</em>, Windows</ligne>
+			<ligne>Administration de serveurs <em>(Apache, Samba, Subversion, Postfix, MySQL, PostgreSQL)</em></ligne>
+			<ligne>Configuration et administration de systèmes d'exploitation : GNU/Linux <em>(Red Hat, Fedora, Debian)</em>, Windows</ligne>
 		</competence>
 		<competence nom="Divers">
-			<ligne>Bases de Flash, Gimp <em>(Photoshop)</em> et cryptographie</ligne>
-			<ligne>Vente, secrétariat et comptabilité, bases en électricité et électronique</ligne>
+			<ligne>Bases de Flash, Gimp <em>(Photoshop)</em>, cryptographie, maintenance de paquetages RPM pour Fedora</ligne>
+			<ligne>Responsable de la documentation francophone de Fedora (http://doc.fedora-fr.org)</ligne>
 		</competence>
 	</competences>
 	<titre nom="EXPÉRIENCE PROFESSIONNELLE">
 		<ligne>
 			<annee>2007</annee>
+			<libelle>Ministère de l'Écologie - Administration Centrale</libelle>
+			<poste>Expert Java/XML/Tomcat</poste>
+		</ligne>
+		<ligne>
+			<annee>2007</annee>
 			<libelle>Pandoc/Diodé - Ministère de l'Équipement</libelle>
-			<poste>Développeur Web - Mise en conformité XHTML/WCAG</poste>
+			<poste>Développeur Web - WCAG</poste>
 		</ligne>
 		<ligne>
 			<annee>2006-2007</annee>
@@ -44,7 +48,7 @@
 		<ligne>
 			<annee>2004-2006</annee>
 			<libelle>E.U.R.L. HARDWARE et COMMUNICATION, Douai</libelle>
-			<poste>Responsable système et programmation</poste>
+			<poste>Responsable système et développement</poste>
 			
 		</ligne>
 		<ligne>
@@ -88,7 +92,7 @@
 		</ligne>
 		<ligne>
 			<annee>2000-2007</annee>
-			<libelle>Formation autodidacte en informatique (système, réseau et programmation).</libelle>
+			<libelle>Formation autodidacte en informatique (système, réseau et développement).</libelle>
 		</ligne>
 	</titre>
 	<titre nom="DIVERS">
