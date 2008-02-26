@@ -13,7 +13,7 @@
 	</coordonnees>
 	<competences nom="COMPÉTENCES PROFESSIONNELLES">
 		<competence nom="Développement">
-			<ligne>Conception et réalisation d'applications Java <em>(JDBC, Swing, JDOM, Servlets, Lucene, Exist)</em></ligne>
+			<ligne>Conception et réalisation d'applications Java <em>(JDBC, Swing, JDOM, Servlets, Lucene, Exist)</em>, Python</ligne>
 			<ligne>Conception et réalisation de sites web via Apache Tomcat/Cocoon, bases de données XML</ligne>
 			<ligne>Conception et administration de bases de données SQL <em>(MySQL, PostgreSQL, Access, HSQLDB, Derby)</em></ligne>
 			<ligne>Création de sites internet dynamiques <em>(XHTML, CSS, JavaScript, XML, XSL, SAX, DOM, FO, AJAX, respect des standards)</em></ligne>
@@ -31,7 +31,7 @@
 	</competences>
 	<titre nom="EXPÉRIENCE PROFESSIONNELLE">
 		<ligne>
-			<annee>2007</annee>
+			<annee>2007-2008</annee>
 			<libelle>Ministère de l'Écologie - Administration Centrale</libelle>
 			<poste>Expert Java/XML/Tomcat</poste>
 		</ligne>
@@ -79,20 +79,20 @@
 	</titre>
 	<titre nom="FORMATION">
 		<ligne>
-			<annee>1996</annee>
-			<libelle>BEP ACC (Administration Commerciale et Comptabilité).</libelle>
-		</ligne>
-		<ligne>
-			<annee>1998</annee>
-			<libelle>Baccalauréat STT (Sciences et Techniques Tertiaires) Comptabilité / Gestion, mention A.B.</libelle>
+			<annee>2000-2008</annee>
+			<libelle>Formation autodidacte en informatique (système, réseau et développement).</libelle>
 		</ligne>
 		<ligne>
 			<annee>2000</annee>
 			<libelle>Niveau BTS Informatique de Gestion.</libelle>
 		</ligne>
 		<ligne>
-			<annee>2000-2007</annee>
-			<libelle>Formation autodidacte en informatique (système, réseau et développement).</libelle>
+			<annee>1998</annee>
+			<libelle>Baccalauréat STT (Sciences et Techniques Tertiaires) Comptabilité / Gestion, mention A.B.</libelle>
+		</ligne>
+		<ligne>
+			<annee>1996</annee>
+			<libelle>BEP ACC (Administration Commerciale et Comptabilité).</libelle>
 		</ligne>
 	</titre>
 	<titre nom="DIVERS">
