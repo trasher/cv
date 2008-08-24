@@ -1,7 +1,7 @@
 <?php
 class Acronyms{
 	var $file;
-	var $datas_rep = "../../i18n/";
+	var $datas_rep = "xml/";
 	var $commons;
 	
 	function __construct(){

@@ -69,7 +69,7 @@ class SendMail{
 	}
 	
 	function Recapitule($from){
-		require_once('class_commons.php5');
+		require_once('class_commons.php');
 		$commons = new Commons($this->lang);
 		echo "<table align=\"center\">";
 		echo "<tr>";

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE acronyms SYSTEM "../templates/acronyms.dtd">
+<acronyms>
+    <!-- A -->
+    <acronym name="AFUL">Association Francophone des Utilisateurs de Linux et des Logiciels Libres </acronym>
+    <acronym name="aka">also known as</acronym>
+    <acronym name="APINC">Association pour la Promotion de l'Internet Non Commercial</acronym>
+    <!-- B -->
+    <acronym name="BSD">Berkeley Software Distribution</acronym>
+    <!-- C -->
+    <acronym name="CGI">Common Gateway Interface</acronym>
+    <acronym name="CIFS">Common Internet File System</acronym>
+    <acronym name="CSS">Cascading Style Sheet</acronym>
+    <acronym name="CV">Curriculum Vitae</acronym>
+    <!-- D -->
+    <acronym name="DHCP">Dynamic Host Configuration Protocol</acronym>
+    <acronym name="DOM">Document Object Model</acronym>
+    <acronym name="DTD">Document Type Definition</acronym>
+    <!-- E -->
+    <!-- F -->
+    <acronym name="FC2">Fedora Core 2</acronym>
+    <acronym name="FC3">Fedora Core 3</acronym>
+    <acronym name="FC4">Fedora Core 4</acronym>
+    <acronym name="FC5">Fedora Core 5</acronym>
+    <acronym name="FF">FireFox</acronym>
+    <acronym name="FFII">Foundation for a Free Information Infrastructure</acronym>
+    <acronym name="FSF">Free Software Foundation</acronym>
+    <acronym name="FTP">File Transfer Protocol</acronym>
+    <!-- G -->
+    <acronym name="GDM">Gnome Display Manager</acronym>
+    <acronym name="GNU">GNU's Not UNIX</acronym>
+    <acronym name="GnuPG">GNU Privacy Guard</acronym>
+    <acronym name="GPG">GNU Privacy Guard</acronym>
+    <acronym name="GPL">General Public Licence</acronym>
+    <acronym name="GRUB">GRand Unified Bootloader</acronym>
+    <acronym name="GUI">Graphical User Interface</acronym>
+    <!-- H -->
+    <acronym name="HTML">HyperText Markup Language</acronym>
+    <acronym name="HTTP">HyperText Transfer Protocol</acronym>
+    <!-- I -->
+    <acronym name="IE">Internet Explorer</acronym>
+    <acronym name="IRC">Internet Relay Chat</acronym>
+    <!-- J -->
+    <!-- K -->
+    <acronym name="KDE">K Desktop Environment</acronym>
+    <acronym name="KDM">KDE Display Manager</acronym>
+    <!-- L -->
+    <acronym name="LILO">LInux LOader</acronym>
+    <!-- M -->
+    <acronym name="MUA">Mail User Agent</acronym>
+    <!-- N -->
+    <acronym name="NFS">Network File System</acronym>
+    <!-- O -->
+    <acronym name="OASIS">Organization for the Advancement of Structured Information Standards</acronym>
+    <acronym name="OOo">Open Office.org</acronym>
+    <!-- P -->
+    <acronym name="PDF">Portable Document Format</acronym>
+    <acronym name="PERL">Practical Extraction and Report Language </acronym>
+    <acronym name="PGP">Pretty Good Privacy</acronym>
+    <acronym name="PHP">PHP : Hypertext Preprocessor</acronym>
+    <!-- Q -->
+    <!-- R -->
+    <acronym name="RSH">Remote SHell</acronym>
+    <acronym name="RSS">Really Simple Syndication</acronym>
+    <!-- S -->
+    <acronym name="SAX">Simple API for XML</acronym>
+    <acronym name="SGML">Standard Generalized Markup Language</acronym>
+    <acronym name="SMB">Server Message Block</acronym>
+    <acronym name="SQL">Structured query language</acronym>
+    <acronym name="SSH">Secure SHell</acronym>
+    <acronym name="SVG">Scalable Vector Graphics</acronym>
+    <!-- T -->
+    <acronym name="TAR">Tape ARchive</acronym>
+    <!-- U -->
+    <acronym name="URI">Uniform Resource Identifier</acronym>
+    <acronym name="URL">Unifrom Resource Locator</acronym>
+    <acronym name="USB">Universal Serial Bus</acronym>
+    <!-- V -->
+    <!-- W -->
+    <acronym name="W3C">World Wide Web Consortium</acronym>
+    <acronym name="WAI">Web Accessibility Initiative</acronym>
+    <acronym name="WCAG">Web Content Accessibility Guidelines</acronym>
+    <!-- X -->
+    <acronym name="XHTML">eXtensible HyperText Markup Language</acronym>
+    <acronym name="(X)HTML">eXtensible HyperText Markup Language</acronym>
+    <acronym name="XML">eXtensible Markup Language</acronym>
+    <acronym name="XPI">Cross Platform Installer</acronym>
+    <acronym name="XSL">eXtensible Stylesheet Language</acronym>
+    <acronym name="XSL-FO">eXtensible Stylesheet Language - Formatted Object</acronym>
+    <acronym name="XSLT">eXtended Stylesheet Language Transformations</acronym>
+    <acronym name="XUL">XML-based User interface Language</acronym>
+    <!-- Y -->
+    <!-- Z -->
+</acronyms>

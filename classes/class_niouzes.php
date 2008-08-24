@@ -18,12 +18,12 @@ class Niouzes{
 
 		echo "\t<div id=\"niouzes\">\n";
 		echo "\t\t<ul title=\"".$commons->getValue("lastNewsToolTip")."\">\n";
-		echo "\t\t\t<li class=\"titre\"><a href=\"changelog.php5\">".$commons->getValue("lastNews")."</a></li>\n";
+		echo "\t\t\t<li class=\"titre\"><a href=\"changelog.php\">".$commons->getValue("lastNews")."</a></li>\n";
 		$count=0;
 		foreach($resumed_news as $news_head){
 			$count++;
 			$toreplace= array("'", " ", "\"", "\\", "/", ".");
-			$url = "changelog.php5#".str_replace($toreplace,"_",utf8_decode($news_head["detail"]));
+			$url = "changelog.php#".str_replace($toreplace,"_",utf8_decode($news_head["detail"]));
 			echo "\t\t\t<li class=\"entete\"><a href=\"".$url."\">".utf8_decode($news_head["date"])." (".utf8_decode($news_head["auteur"]).")</a></li>\n";
 			echo "\t\t\t<li>".utf8_decode($news_head["detail"])."</li>\n";
 			if($count>=5){break;}

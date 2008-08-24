@@ -1,5 +1,5 @@
 <?php
-require('../../classes/fpdf.php');
+require('classes/fpdf.php');
 global $cptPostes;
 
 class PDF extends FPDF{
@@ -26,7 +26,7 @@ var $widths;
 		$this->SetFont('gill','',13);
 		$xval=$this->GetX();
 		$yval=$this->GetY();
-		$this->Image("../../images/phone.jpg",$xval,$yval,5);
+		$this->Image("images/phone.jpg",$xval,$yval,5);
 		$this->Cell(5,6,'',0,0,'');
 		$cpte = 0;
 		foreach($arrCoords->tel as $tel){

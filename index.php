@@ -1,7 +1,7 @@
 <?php
 ini_set("session.use_trans_sid", "0");
 session_start();
-include('classes/class_acronyms.php5');
+include('classes/class_acronyms.php');
 $acronyms = new Acronyms();
 function getAcronym($acronym){
 	global $acronyms;

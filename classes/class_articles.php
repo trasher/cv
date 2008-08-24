@@ -60,7 +60,7 @@ class Articles{
 						if($proceed){
 							$file = simplexml_load_file($this->directory.$dir."/".$subdir);
 							$title = $file->xpath("//page");
-							$path = $this->dest.".php5?cat=".$dir."&amp;art=".$filelang[0];
+							$path = $this->dest.".php?cat=".$dir."&amp;art=".$filelang[0];
 							echo "<li><a href=\"$path\">".utf8_decode($title[0]["titre"]).$language."</a></li>";
 						}
 					}
