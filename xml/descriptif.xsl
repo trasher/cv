@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" exclude-result-prefixes="php">
-<xsl:output method="xml" doctype-public="-//W3C//DTD XHTML 1.1//EN" doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" encoding="ISO-8859-1" indent="yes" omit-xml-declaration="yes"  />
+<xsl:output method="xml" doctype-public="-//W3C//DTD XHTML 1.1//EN" doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" encoding="UTF-8" indent="yes" omit-xml-declaration="yes"  />
 
 <xsl:param name="space" select="' '"/>
 <xsl:variable name="from"> '!@#$%^*(),:;.?/\[]{}|=+-_*"&amp;&gt;&lt;&#171;&#187;</xsl:variable>
@@ -13,9 +13,9 @@
 		<head>
 			<title>...::: Johan Cwiklinski - Curriculum Vitae :::...</title>
 			<meta name="Author" content="Johan CWIKLINSKI"/>
-			<meta name="description" content="Johan Cwiklinski : Curriculum Vitae et présentation des réalisations et savoir-faire"/>
-			<meta name="keywords" content="johan, cwiklinski, curriculum vitae, réalisation de sites web, programmation, webmaster, webmestre, java, php, linux, redhat, réseau, logiciels open source, trasher"/>
-			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15"/>
+			<meta name="description" content="Johan Cwiklinski : Curriculum Vitae et prÃ©sentation des rÃ©alisations et savoir-faire"/>
+			<meta name="keywords" content="johan, cwiklinski, curriculum vitae, rÃ©alisation de sites web, programmation, webmaster, webmestre, java, php, linux, redhat, rÃ©seau, logiciels open source, trasher"/>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 			<!-- dublin core metas -->
 			<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
 			<meta name="DC.Publisher" content="Johan Cwiklinski - X-TnD"/>
@@ -53,8 +53,8 @@
 					<xsl:value-of select="$space"/>
 				</div>
 				<ul id="styleswitcher">
-					<li>Sélectionnez un style : </li>
-					<li><a href="?css=blue" title="Style 'Bleu' (par défaut)">blue</a></li>
+					<li>SÃ©lectionnez un style : </li>
+					<li><a href="?css=blue" title="Style 'Bleu' (par dÃ©faut)">blue</a></li>
 					<li><a href="?css=black" title="Style 'Noir' (ancien)">black</a></li>
 					<li><a href="?css=nostyle" title="Pas de style. Affiche le XHTML sans appliquer de style">no style</a></li>
 				</ul>
@@ -69,7 +69,7 @@
 				</ul>
 				<ul>
 					<li>
-						<a href="http://www.php.net" title="Réalisé en PHP5">
+						<a href="http://www.php.net" title="RÃ©alisÃ© en PHP5">
 							<img src="http://x-tnd.be/images/php5-power.png" alt="Powered by PHP5"/>
 						</a>
 						<span>&#160;;</span>
@@ -87,33 +87,10 @@
 						<span>&#160;;</span>
 					</li>
 					<li>
-						<a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Exlications sur la conformité de niveau Double-A">
+						<a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Exlications sur la conformitÃ© de niveau Double-A">
 							<img src="http://x-tnd.be/images/w3c-wai-aa.png" alt="Level Double-A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0" />
 						</a>
 						<span>&#160;;</span>
-					</li>
-					<li>
-						<!-- phpmyvisites V2 -->
-						<a href="http://www.phpmyvisites.net/" title="phpMyVisites |  logiciel gratuit de mesure d'audience et de statistiques de sites Internet (licence libre GPL, logiciel en php/MySQL)"
-							onclick="window.open(this.href);return(false);">
-							<script type="text/javascript">
-								var a_vars = Array();
-								var pagename='';
-								
-								var phpmyvisitesSite = 1;
-								var phpmyvisitesURL = 'http://x-tnd.be/phpmv2/phpmyvisites.php';
-							</script>
-							<script src="http://x-tnd.be/phpmv2/phpmyvisites.js" type="text/javascript">
-								<![CDATA[<!-- -->]]>
-							</script>
-							<noscript>
-								<p>phpMyVisites |  logiciel gratuit de mesure d'audience et de statistiques de sites Internet (licence libre GPL, logiciel en php/MySQL)
-									<img src="http://x-tnd.be/phpmv2/phpmyvisites.php" alt="phpMyVisites" style="border:0" />
-								</p>
-							</noscript>
-						</a>
-						<!-- /phpmyvisites V2 --> 
-						<span>.</span>
 					</li>
 				</ul>
 			</div>

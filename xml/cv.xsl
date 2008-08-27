@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
 		<html>
@@ -6,7 +6,7 @@
 				<title>X-TND ...::: Johan Cwiklinski - Curriculum Vitae :::...</title>
 				<meta name="Author" content="Johan CWIKLINSKI"/>
 				<meta name="keywords" content="curriculum, vitae, johan, cwiklinski, programmeur, webmaster, webmestre, java, php, linux, redhat, red, hat, reseau, réseau, windows, lan, securite, sécurité, logiciel, open, source, programmation, trasher"/>
-				<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 				<link rel="shortcut icon" href="http://x-tnd.be/favicon.ico"/>
 				<link type="text/css" rel="stylesheet"  href="../templates/cv.css"/>
 			</head>
@@ -89,16 +89,6 @@
 	</xsl:template>
 	
 	<xsl:template match="ligne">
-<!-- 		<div class="left"><strong><xsl:value-of select="annee"/></strong></div> -->
-		<!-- traitement des retours ligne -->
-		<!--<div class="right">
-			<xsl:call-template name="cr2br">
-				<xsl:with-param name="text" select="descriptif"/>
-			</xsl:call-template>
-			<xsl:if test="ulink">
-				<xsl:apply-templates select="ulink"/>
-			</xsl:if>
-		</div>-->
 		<xsl:choose>
 			<xsl:when test="libelle">
 				<xsl:if test="poste">
@@ -142,14 +132,6 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-	
-	<!--<xsl:template match="ulink">
-		<xsl:value-of select="$space"/>
-		<a>
-			<xsl:attribute name="href">xml/<xsl:value-of select="@url"/></xsl:attribute>
-			<xsl:value-of select="@txt"/>
-		</a>
-	</xsl:template>-->
 	
 	<xsl:template match="em">
 		<em><xsl:value-of select="." /></em>
