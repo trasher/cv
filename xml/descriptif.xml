@@ -37,6 +37,6 @@
     	<element nom="Documentation francophone" url="http://doc.fedora-fr.org" tech="MediaWiki">Administrateur de la documentation francophone de Fedora.</element>
 	<element nom="Packaging" url="https://admin.fedoraproject.org/pkgdb/users/packages/trasher" tech="Tous langages">Création (empaquetage) de binaires RPM à destination des dépôts officiels de Fedora.</element>
 	<element nom="Association Fedora-fr" url="http://asso.fedora-fr.org" tech="-">Trésorier de l'association Fedora-fr.</element>
-	<element nom="Traduction" url="http://fedoraproject.org/wiki/L10N/Teams/French">Participation à la traduction de documentation et de logiciels.</element>
+	<element nom="Traduction" url="http://fedoraproject.org/wiki/L10N/Teams/French" tech="-">Participation à la traduction de documentation et de logiciels.</element>
     </section>
 </descriptif>
