@@ -32,7 +32,7 @@
 				<xsl:attribute name="scheme">W3CDTF</xsl:attribute>
 				<xsl:attribute name="content"><xsl:value-of select="/descriptif/@DCdateModif"/></xsl:attribute>
 			</meta>
-			<link rel="shortcut icon" href="http://ulysses.fr/favicon.ico"/>
+			<link rel="shortcut icon" href="http://ulysses.fr/favicon.jpg"/>
 			<xsl:if test="$css!='nostyle'">
 				<style type="text/css">
 					@import 'templates/<xsl:value-of select="$css"/>.css';

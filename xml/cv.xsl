@@ -7,7 +7,7 @@
 				<meta name="Author" content="Johan CWIKLINSKI"/>
 				<meta name="keywords" content="curriculum, vitae, johan, cwiklinski, programmeur, webmaster, webmestre, java, php, linux, redhat, red, hat, reseau, réseau, windows, lan, securite, sécurité, logiciel, open, source, programmation, trasher"/>
 				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-				<link rel="shortcut icon" href="http://ulysses.fr/favicon.ico"/>
+				<link rel="shortcut icon" href="http://ulysses.fr/favicon.jpg"/>
 				<link type="text/css" rel="stylesheet"  href="../templates/cv.css"/>
 			</head>
 			<body>
