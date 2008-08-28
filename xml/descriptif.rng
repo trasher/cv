@@ -63,6 +63,7 @@
         <choice>
           <text/>
           <ref name="acronyme"/>
+	  <ref name="lien"/>
         </choice>
       </oneOrMore>
     </element>

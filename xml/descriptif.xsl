@@ -70,25 +70,25 @@
 				<ul>
 					<li>
 						<a href="http://www.php.net" title="Réalisé en PHP5">
-							<img src="http://x-tnd.be/images/php5-power.png" alt="Powered by PHP5"/>
+							<img src="http://ulysses.fr/icons/php5-power-grey.png" alt="Powered by PHP5"/>
 						</a>
 						<span>&#160;;</span>
 					</li>
 					<li>
 						<a href="http://validator.w3.org/check/referer" title="Validation XHTML 1.1">
-							<img alt="XHTML 1.1 Valide" src="http://x-tnd.be/images/w3c-xhtml1.1.png" />
+							<img alt="Valide XHTML 1.1" src="http://ulysses.fr/icons/w3c-xhtml1.1-grey.png" />
 						</a>
 						<span>&#160;;</span>
 					</li>
 					<li>
 						<a href="http://jigsaw.w3.org/css-validator/check/referer" title="Validation CSS 2.0">
-							<img alt="CSS 2.0 Valide" src="http://x-tnd.be/images/w3c-css2.0.png" />
+							<img alt="Valide CSS 2.0" src="http://ulysses.fr/icons/w3c-css2.0-grey.png" />
 						</a>
 						<span>&#160;;</span>
 					</li>
 					<li>
 						<a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Exlications sur la conformité de niveau Double-A">
-							<img src="http://x-tnd.be/images/w3c-wai-aa.png" alt="Level Double-A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0" />
+							<img src="http://ulysses.fr/icons/w3c-wai-aa-grey.png" alt="Level Double-A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0" />
 						</a>
 						<span>&#160;;</span>
 					</li>
