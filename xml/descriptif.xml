@@ -3,7 +3,7 @@
     <presentation>
         <para titre="Qui suis-je ?">Depuis longtemps passionné d'informatique, je possède des connaissances dans les domaines du web (conception et réalisation de sites internet), de la programmation (conception et réalisation d'applications à destination des entreprises ou collectivités dans divers langages de programmation) et de l'administration système (notamment sous <acronyme>GNU</acronyme>/Linux).</para>
 	<para>Dans le domaine de la programmation, je développe et utilise uniquement des logiciels libres (sous licence <acronyme>GPL</acronyme>, Mozilla, <acronyme>BSD</acronyme>, ...) ; j'utilise personnellement les systèmes d'exploitation GNU/Linux <lien url="http://fedora-fr.org">Fedora</lien> et <lien url="http://fr.centos.org">CentOS</lien>.</para>
-	<para>Dans le domaine du développement web, je «&#160;milite&#160;» pour une accessibilité à tous, et en conséquence respecte les standards établis par le <acronyme>W3C</acronyme> (<acronyme>XHTML</acronyme>, <acronyme>CSS</acronyme>, <acronyme>WAI</acronyme>/<acronyme>WCAG</acronyme>, <acronyme>XML</acronyme>, <acronyme>XSL</acronyme>, ...) ; mes réalisations web sont testées afin de fonctionner de façon similaire sur les différents navigateurs web que l'on peut rencontrer (Mozila, Firefox, Konqueror, Internet Explorer, Opera, ...), chacun ayant ses propres spécificités.</para>
+	<para>Dans le domaine du développement web, je «&#160;milite&#160;» pour une accessibilité à tous, et en conséquence respecte les standards établis par le <acronyme>W3C</acronyme> (<acronyme>XHTML</acronyme>, <acronyme>CSS</acronyme>, <acronyme>WAI</acronyme>/<acronyme>WCAG</acronyme>, <acronyme>XML</acronyme>, <acronyme>XSL</acronyme>, ...) ; mes réalisations web sont testées afin de fonctionner de façon similaire sur les différents navigateurs web que l'on peut rencontrer (Mozilla, Firefox, Konqueror, Internet Explorer, Opera, ...), chacun ayant ses propres spécificités.</para>
 	<para titre="Copyright et restrictions">Les éléments contenus sur les sites de la partie «&#160;Sites Web&#160;» appartiennent à leurs propriétaires respectifs et peuvent être soumis à certaines restrictions. Tout le reste est entièrement libre de droits.</para>
     </presentation>
     <section nom="Curriculum Vitae" commentaire="Diverses possibilités d'affichage d'un curriculum vitae stocké dans un fichier XML">
@@ -18,9 +18,9 @@
 	<element nom="Calendrier Artistes" url="http://demo.ulysses.fr/calendrier/" tech="PHP - MySQL">Calendrier pour artistes réalisé en <acronyme>PHP</acronyme>/MySQL, le calendrier utilisé pour la base de ce projet est un projet open source nommé PHPiCalendar, sur la demande d'une association artistique afin de gérer les emplois du temps de ses musiciens, groupes et salles de répétitions.</element>
     </section>
     <section nom="Réalisations Java" lien="http://logiciels.x-tnd.be">
-        <element nom="Gestion de cantine" url="http://cantine.ulysses.fr" tech="Java">Conception et réalisation d'un logiciel de gestion de cantine scolaire sous licence GPL pour une mairie. Gestion des familles et élèves, gestion des jours normaux de présence, planning (absences prévues, non prévues, présences imprévues, présences prépayées, facturation en fonction du planning, gestion des congés et jours fériés, impressions diverses, ...</element>
-        <element nom="BibliothèK" url="http://bibliothek.ulysses.fr" tech="Java">Gestion de bibliothèque en java. Sur la demande d'un ami et mon besoin personnel. Les sources sont incluses dans le package d'installation, ainsi que les instructions nécessaires à l'installation et à l'utilisation du programme.</element>
 	<element nom="Notix" url="http://notix.org" tech="Java/Cocoon/XML">Participation au développement d'une application de gestion documentaire, basée sur les technologies <lien url="http://exist.sourceforge.net/">eXist</lien>, <lien url="http://cocoon.apache.org">cocoon</lien>, <acronyme>XML</acronyme>, <acronyme>XSL</acronyme>, <lien url="http://lucene.apache.org/">Lucene</lien> et <lien url="http://adnx.org/sdx/">SDX</lien>.</element>
+        <element nom="Gestion de cantine" url="http://cantine.ulysses.fr" tech="Java">Conception et réalisation d'un logiciel de gestion de cantine scolaire sous licence GPL pour une mairie. Gestion des familles et élèves, gestion des jours normaux de présence, planning (absences prévues, non prévues, présences imprévues, présences prépayées), facturation en fonction du planning, gestion des congés et jours fériés, impressions diverses, ...</element>
+        <element nom="BibliothèK" url="http://bibliothek.ulysses.fr" tech="Java">Gestion de bibliothèque en java. Sur la demande d'un ami et mon besoin personnel. Les sources sont incluses dans le package d'installation, ainsi que les instructions nécessaires à l'installation et à l'utilisation du programme.</element>
     </section>
     <section nom="Sites Web">
 	<element nom="Notix" url="http://notix.org" tech="MediaWiki">Mise en place d'un site pour le logiciel documentaire Notix.</element>
@@ -35,7 +35,8 @@
     </section>
     <section nom="Fedora" lien="http://fedora.ulysses.fr/" commentaire="Distribution GNU/Linux Fedora">
     	<element nom="Documentation francophone" url="http://doc.fedora-fr.org" tech="MediaWiki">Administrateur de la documentation francophone de Fedora.</element>
-	<element nom="Packaging" url="https://admin.fedoraproject.org/pkgdb/users/packages/trasher" tech="Tous langages">Création (empaquetage) de binaires RPM à destination des dépôts officel de Fedora.</element>
+	<element nom="Packaging" url="https://admin.fedoraproject.org/pkgdb/users/packages/trasher" tech="Tous langages">Création (empaquetage) de binaires RPM à destination des dépôts officiels de Fedora.</element>
 	<element nom="Association Fedora-fr" url="http://asso.fedora-fr.org" tech="-">Trésorier de l'association Fedora-fr.</element>
+	<element nom="Traduction" url="http://fedoraproject.org/wiki/L10N/Teams/French">Participation à la traduction de documentation et de logiciels.</element>
     </section>
 </descriptif>
