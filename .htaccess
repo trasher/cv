@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^([^.]+)\.php5$ /$1.php [QSA,L,R=301] 

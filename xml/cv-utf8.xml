@@ -3,10 +3,10 @@
 <cv titre="Développeur\nAdministrateur système">
 	<coordonnees>
 		<nom>CWIKLINSKI</nom><prenom>Johan</prenom>
-		<adresse>28 Avenue Gaston Cabannes</adresse>
-		<cp>33270</cp><ville>FLOIRAC</ville>
-		<tel>09 51 97 12 54</tel>
-		<!--<tel>06 35 39 57 87</tel>-->
+		<adresse>6 rue François Lévêque - Appt 88</adresse>
+		<cp>33300</cp><ville>BORDEAUX</ville>
+		<tel>05 56 04 19 13</tel>
+		<tel>06 26 31 84 68</tel>
 		<url>http://www.x-tnd.be</url>
 		<mail>johan.cwi@x-tnd.be</mail>
 		<comment>29 ans, marié, un enfant</comment>
@@ -16,7 +16,7 @@
 			<ligne>Conception et réalisation d'applications Java <em>(JDBC, Swing, JDOM, Servlets, Lucene, Exist)</em>, Python</ligne>
 			<ligne>Conception et réalisation de sites web via Apache Tomcat/Cocoon, bases de données XML</ligne>
 			<ligne>Conception et administration de bases de données SQL <em>(MySQL, PostgreSQL, Access, HSQLDB, Derby)</em></ligne>
-			<ligne>Création de sites internet dynamiques <em>(XHTML, CSS, JavaScript, XML, XSL, SAX, DOM, FO, AJAX, respect des standards)</em></ligne>
+			<ligne>Création de sites internet dynamiques <em>(XHTML, CSS, JavaScript, XML, XSL<!--, SAX, DOM, FO-->, AJAX, respect des standards)</em></ligne>
 			<ligne>Création d'applications web en PHP <em>(versions 4 et 5)</em></ligne>
 		</competence>
 		<competence nom="Technique">
