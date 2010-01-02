@@ -55,7 +55,6 @@
 			<annee>2004-2006</annee>
 			<libelle>E.U.R.L. HARDWARE et COMMUNICATION, Douai</libelle>
 			<poste>Responsable système et développement</poste>
-			
 		</ligne>
 		<ligne>
 			<annee>2002-2003</annee>
@@ -85,7 +84,7 @@
 	</titre>
 	<titre nom="FORMATION">
 		<ligne>
-			<annee>2000-2008</annee>
+			<annee>2000-2010</annee>
 			<libelle>Formation autodidacte en informatique (système, réseau et développement).</libelle>
 		</ligne>
 		<ligne>
@@ -96,12 +95,8 @@
 			<annee>1998</annee>
 			<libelle>Baccalauréat STT (Sciences et Techniques Tertiaires) Comptabilité / Gestion, mention A.B.</libelle>
 		</ligne>
-		<!--<ligne>
-			<annee>1996</annee>
-			<libelle>BEP ACC (Administration Commerciale et Comptabilité).</libelle>
-		</ligne>-->
 	</titre>
-	<titre nom="DIVERS">
+	<titre nom="ACTIVITÉS EXTRA-PROFESSIONNELLES">
 		<ligne>
 			<annee>Langues</annee>
 			<libelle>Anglais : lu, parlé, écrit\nNotions d'espagnol</libelle>
