@@ -32,6 +32,11 @@
 	</competences>
 	<titre nom="EXPÉRIENCE PROFESSIONNELLE">
 		<ligne>
+			<annee>Depuis 2008</annee>
+			<libelle>AJLSM, Bordeaux</libelle>
+			<poste>Administrateur système, Développeur</poste>
+		</ligne>
+		<ligne>
 			<annee>2007-2008</annee>
 			<libelle>Ministère de l'Écologie - Administration Centrale</libelle>
 			<poste>Expert Java/XML/Tomcat</poste>
@@ -67,11 +72,11 @@
 			<libelle>DEFOORT NATURAVIE, Valenciennes</libelle>
 			<poste>Gestion Informatique</poste>
 		</ligne>
-		<ligne>
+		<!--<ligne>
 			<annee>1999</annee>
 			<libelle>I.T.E. INFORMATIQUE, Valenciennes</libelle>
 			<poste>Technicien informatique</poste>
-		</ligne>
+		</ligne>-->
 		<ligne>
 			<annee>1997</annee>
 			<libelle>S.A.R.L. SOLIDECO, Escautpont</libelle>
@@ -91,10 +96,10 @@
 			<annee>1998</annee>
 			<libelle>Baccalauréat STT (Sciences et Techniques Tertiaires) Comptabilité / Gestion, mention A.B.</libelle>
 		</ligne>
-		<ligne>
+		<!--<ligne>
 			<annee>1996</annee>
 			<libelle>BEP ACC (Administration Commerciale et Comptabilité).</libelle>
-		</ligne>
+		</ligne>-->
 	</titre>
 	<titre nom="DIVERS">
 		<ligne>
