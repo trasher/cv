@@ -1,7 +1,7 @@
 body{
 	background-color: #FFF;
 	color:#000;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: "DejaVu Sans", Verdana, Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 }
 a, a:link, a:visited{
@@ -48,8 +48,13 @@ h3{
 	text-align:center;
 }
 hr{
+	margin-top:1.5em;
 	border:1px black solid;
 	clear:both;
+}
+ul{
+	margin:.1em 0 0 0;
+	padding:0 1em;
 }
 .left{
 	float:left;
@@ -66,7 +71,7 @@ hr{
 	text-align:justify;
 }
 .cv .big_block{
-	width:200px;
+	width:300px;
 }
 .cv .big_left_margin{
 	margin-left:205px;
@@ -74,10 +79,24 @@ hr{
 .cv .fright{
 	float:right;
 }
-.cv .online{
+.cv .oneline{
 	text-align:justify;
 }
 .bottom{
 	margin-top: 30px;
 	text-align: center;
+}
+.cv .descriptif{
+	clear:both;
+	border-top: 1px black dotted;
+	padding-left:1.5em;
+	margin-top:.2em;
+}
+.cv .descriptif p{
+	margin:0 0 .1em .5em;
+}
+.cv .descriptif p.first{
+	margin-left:0;
+	font-weight:bold;
+	font-style:italic;
 }

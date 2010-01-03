@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:output method="xml" encoding="UTF-8" indent="yes" omit-xml-declaration="yes"/>
-<xsl:template match="/">
-	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
-		<head>
-			<title>...::: Johan Cwiklinski - Curriculum Vitae :::...</title>
-			<meta name="Author" content="Johan CWIKLINSKI"/>
-			<meta name="keywords" content="curriculum, vitae, johan, cwiklinski, programmeur, webmaster, webmestre, java, php, linux, redhat, red, hat, reseau, réseau, windows, lan, securite, sécurité, logiciel, open, source, programmation, trasher"/>
-			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-			<link rel="shortcut icon" href="http://ulysses.fr/favicon.jpg"/>
-			<link type="text/css" rel="stylesheet"  href="templates/cv.css"/>
-		</head>
-	<body>
-	<xsl:apply-templates select="cv"/>
-	</body>
-	</html>
-</xsl:template>
+	<xsl:output method="xml" encoding="UTF-8" indent="yes" omit-xml-declaration="yes"/>
+	<xsl:param name="space" select="' '"/>
 
+	<xsl:template match="/">
+		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+			<head>
+				<title>...::: Johan Cwiklinski - Curriculum Vitae :::...</title>
+				<meta name="Author" content="Johan CWIKLINSKI"/>
+				<meta name="keywords" content="administrateur système, développeur web, développeur, open source, webmaster, java, php, linux, fedora"/>
+				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+				<link rel="shortcut icon" href="http://ulysses.fr/favicon.jpg"/>
+				<link type="text/css" rel="stylesheet"  href="templates/cv.css"/>
+			</head>
+			<body>
+				<xsl:apply-templates select="cv"/>
+			</body>
+		</html>
+	</xsl:template>
 
-<xsl:param name="space" select="' '"/>
 	<xsl:template match="cv">
 		<div class="content">
 			<h1>
@@ -55,13 +55,13 @@
 			<xsl:value-of select="comment"/>
 		</div>
 	</xsl:template>
-	
+
 	<xsl:template name="telephone">
 		<xsl:for-each select="tel">
-			<xsl:value-of select="."/> - 
+			<xsl:value-of select="."/> -
 		</xsl:for-each>
 	</xsl:template>
-	
+
 	<xsl:template name="webadress">
 		<xsl:for-each select="url">
 			<xsl:element name = "a">
@@ -69,7 +69,7 @@
 					<xsl:value-of select="." />
 				</xsl:attribute>
 				<xsl:value-of select="." />
-			</xsl:element> 		
+			</xsl:element>
 			<xsl:if test="position() &lt; count(//url)"><xsl:value-of select="$space"/>-<xsl:value-of select="$space"/></xsl:if>
 		</xsl:for-each>
 	</xsl:template>
@@ -115,11 +115,11 @@
 							<xsl:attribute name="class">right</xsl:attribute>
 						</xsl:otherwise>
 					</xsl:choose>
-					<!-- traitement des retours ligne -->
-					<xsl:call-template name="cr2br">
-						<xsl:with-param name="text" select="libelle"/>
-					</xsl:call-template>
+					<xsl:apply-templates select="libelle"/>
 				</div>
+				<xsl:if test="descriptif">
+					<xsl:apply-templates select="descriptif"/>
+				</xsl:if>
 				<xsl:if test="poste">
 					<xsl:if test="position()!=last()">
 						<hr/>
@@ -134,25 +134,46 @@
 		</xsl:choose>
 	</xsl:template>
 
+	<xsl:template match="descriptif">
+		<div class="descriptif">
+			<ul>
+				<xsl:for-each select="ligne">
+					<li><xsl:apply-templates/></li>
+				</xsl:for-each>
+			</ul>
+		</div>
+	</xsl:template>
+
+	<xsl:template match="lien">
+		<a class="normal">
+			<xsl:attribute name="href"><xsl:value-of select="@url"/></xsl:attribute>
+			<xsl:value-of select="."/>
+		</a>
+	</xsl:template>
+
+	<xsl:template match="br">
+		<br/>
+	</xsl:template>
+
 	<xsl:template match="em">
 		<em><xsl:value-of select="." /></em>
 	</xsl:template>
 
-<!-- remplacement des \n par des br -->
-<xsl:template name="cr2br">
-	<xsl:param name="text" select="."/>
-	<xsl:choose>
-		<xsl:when test="contains($text, '\n')">
-			<xsl:value-of select="substring-before($text, '\n')" disable-output-escaping="yes"/>
-			<br/>
-			<xsl:call-template name="cr2br">
-				<xsl:with-param name="text" select="substring-after($text,'\n')"/>
-			</xsl:call-template>
-		</xsl:when>
-		<xsl:otherwise>
-			<xsl:value-of select="$text" disable-output-escaping="yes"/>
-		</xsl:otherwise>
-	</xsl:choose>
-</xsl:template>
+	<!-- remplacement des \n par des br -->
+	<xsl:template name="cr2br">
+		<xsl:param name="text" select="."/>
+		<xsl:choose>
+			<xsl:when test="contains($text, '\n')">
+				<xsl:value-of select="substring-before($text, '\n')" disable-output-escaping="yes"/>
+				<br/>
+				<xsl:call-template name="cr2br">
+					<xsl:with-param name="text" select="substring-after($text,'\n')"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$text" disable-output-escaping="yes"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 
 </xsl:stylesheet>
