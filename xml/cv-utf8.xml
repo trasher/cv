@@ -6,8 +6,8 @@
 		<cp>33300</cp><ville>BORDEAUX</ville>
 		<tel>05 56 04 19 13</tel>
 		<tel>06 26 31 84 68</tel>
-		<url>http://www.x-tnd.be</url>
-		<mail>johan.cwi@x-tnd.be</mail>
+		<url>http://blog.ulysses.fr</url>
+		<mail>johan@x-tnd.be</mail>
 		<comment>29 ans, marié, un enfant</comment>
 	</coordonnees>
 	<competences nom="COMPÉTENCES PROFESSIONNELLES">
@@ -35,12 +35,12 @@
 			<libelle>AJLSM, Bordeaux</libelle>
 			<poste>Administrateur système, Développeur</poste>
 			<descriptif>
-				<ligne>Développeur Java/XSL (création de logiciels documentaires basés sur les technologies XML, Java, Tomcat, Cocoon, ...)</ligne>
-				<ligne>Déploiement et administration de serveurs dédiés de tests et de production (CentOS, Gentoo) : Tomcat, httpd, PostgreSQL, MySQL, PHP, Postfix, mise en place de listes de diffusion (Mailman)</ligne>
+				<ligne>Développeur J2EE/XSL (création de logiciels documentaires basés sur les technologies XML, Java, Tomcat, Cocoon, ...)</ligne>
+				<ligne>Déploiement et administration de serveurs dédiés de tests et de production (CentOS, Gentoo) : Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, mise en place de listes de diffusion (Mailman)</ligne>
 				<ligne>Responsable des systèmes de gestion de versions (CVS, Subversion)</ligne>
 				<ligne>Mise en oeuvre de solutions de virtualisation</ligne>
 				<ligne>Gestion et suivi des projets avec les clients</ligne>
-				<ligne>Participation aux réponses d'appels d'offres</ligne>
+				<ligne>Réponses aux appels d'offres</ligne>
 			</descriptif>
 		</ligne>
 		<ligne>
@@ -51,7 +51,7 @@
 				<ligne>Conception et réalisation d'applications de recherche documentaire (Tomcat/Cocoon/Lucene)</ligne>
 				<ligne>Développement d'une application de gestion de notices documentaires (<lien url="http://notix.org">Notix</lien>)</ligne>
 				<ligne>Déploiement en production de la solution <lien url="http://notix.org">Notix</lien>, sous différentes versions</ligne>
-				<ligne>Responsable de certaines tâches d'administration sur les serveurs (Mandriva)</ligne>
+				<ligne>Administration système et réseaux sur l'infrastructure du centre serveur (Mandriva)</ligne>
 			</descriptif>
 		</ligne>
 		<ligne>
