@@ -162,7 +162,9 @@
 				<xsl:value-of select="@url"/>
 			</xsl:attribute>
 			<xsl:value-of select="@nom"/>
-			<xsl:value-of select="$space"/><span>(<xsl:value-of select="@tech"/>)</span>
+			<xsl:if test="not(@tech = '-')">
+				<xsl:value-of select="$space"/><span>(<xsl:value-of select="@tech"/>)</span>
+			</xsl:if>
 		</a><xsl:value-of select="$space"/>
 		<xsl:apply-templates/>
 	</p>
