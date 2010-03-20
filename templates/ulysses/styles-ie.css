@@ -1,0 +1,81 @@
+/** FONT */
+@font-face {
+    font-family: 'NewRegular';
+    src: url('bgrove.eot');
+}
+/** /FONT */
+
+/** INLINE-BLOCK HACK */
+header h1{
+    display:inline; /* Passage de block à élément inline */
+    zoom:1; /* Attribution du layout à l'élément */
+}
+
+section h2{
+    /*display:inline;*/ /* Passage de block à élément inline */
+    zoom:1; /* Attribution du layout à l'élément */
+}
+/** INLINE-BLOCK HACK */
+
+/** TRANSPARENT BG AND BORDERS */
+header, footer{
+    background-color:#30363d;
+}
+
+header nav a{
+    background-color:#595e64;
+}
+
+header nav a:hover{
+    background-color:#83868b;
+}
+
+header nav a.current{
+    border:1px solid #9b9ea2;
+}
+
+section.mainsec{
+    background-color:#92a0ad;
+}
+
+figure{
+    border:1em solid #92a0ad;
+}
+
+figure h2{
+    background-color:#30363d;
+    filter : alpha(opacity=70);
+}
+
+figure:hover{
+    border:1em solid #adb8c2;
+}
+
+aside{
+    background-color:#3a4045;
+}
+/** /TRANSPARENT BG AND BORDERS */
+
+/** OTHERS */
+section h2{
+    border:2px solid #30363d;
+    margin-top:.5em;
+}
+
+aside.tech{
+    padding-top:.1em;
+    padding-bottom:.1em;
+    border-right:none;
+    display:block;
+}
+/** /OTHERS */
+
+/** CV STYLESWITCHER SPECIFICS */
+#styleswitcher {
+    background-color:#30363d;
+}
+#styleswitcher a:hover,
+#styleswitcher a.current{
+    background-color:#83868b;
+}
+/** /CV STYLESWITCHER SPECIFICS */

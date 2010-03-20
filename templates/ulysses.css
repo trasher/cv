@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'NewRegular';
+    src: local('NewRegular'), local('bgrove'), url('ulysses/bgrove.ttf') format('truetype');
+}
+
+body{
+    background: lightslategray url(ulysses/gnu.jpg) top right no-repeat;
+    font-size:.8em;
+    font-family:"DejaVu Sans", Arial, sans-serif;
+}
+
+.content{
+    margin-right:200px;
+    position:relative;
+}
+
+img{
+    border:none;
+}
+
+header, nav, footer, figure, section {
+    display:block;
+}
+
+header{
+    background:url(ulysses/icon.png) 10px 50% no-repeat;
+    background-color:rgba(0, 0, 0, 0.6);
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    padding:0 1em;
+    position:relative;
+    height:70px;
+    padding-left:65px;
+    -moz-box-shadow: 1px 1px 13px black;
+    -webkit-box-shadow: 1px 1px 13px black;
+    box-shadow: 1px 1px 13px black;
+    margin-bottom:1em;
+}
+
+header h1{
+    display:inline-block;
+    position:absolute;
+    bottom:0;
+}
+
+header h1 a{
+    color:white;
+    text-decoration:none;
+}
+
+header h1{
+    margin:0;
+    font-family:NewRegular, "DejaVu Sans";
+    font-weight:normal;
+}
+
+header nav{
+    position:absolute;
+    top:.3em;
+    right:10px;
+}
+
+header nav a{
+    color:white;
+    background-color:rgba(255, 255, 255, .2);
+    padding:.2em 1em;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    display:inline-block;
+    text-decoration:none;
+}
+
+header nav a:hover{
+    background-color:rgba(255, 255, 255, .4);
+    text-shadow:0 0 4px yellow;
+}
+
+header nav a.current{
+    border:1px rgba(255, 255, 255, .4) solid;
+    text-shadow:0 0 4px white;
+}
+
+footer{
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    background-color:rgba(0, 0, 0, 0.6);
+    color:white;
+    text-align:center;
+    -moz-box-shadow: 1px 1px 13px black;
+    -webkit-box-shadow: 1px 1px 13px black;
+    box-shadow: 1px 1px 13px black;
+    padding:.2em 2em;
+    margin-top:1em;
+    display:inline-block;
+    float:right;
+    clear:both;
+}
+
+footer p{
+    margin:0;
+}
+
+footer a{
+    color:white;
+}
+
+footer a:hover{
+    text-shadow:0 0 2px white;
+    text-decoration:none;
+}
+
+section {
+    margin:1.5em 3em 0 0;
+    padding:.2em 1em;
+}
+
+section a {
+    color: black;
+}
+
+section h2{
+    display:inline-block;
+    margin:1em 0 0 0;
+    padding:.2em 1em;
+    width:15em;
+    background:white;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    -moz-box-shadow: 1px 1px 13px black;
+    -webkit-box-shadow: 1px 1px 13px black;
+    box-shadow: 1px 1px 13px black;
+    -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+}
+
+section h3 {
+    text-shadow:0 0 2px white;
+}
+
+section h3 a:hover{
+    text-shadow:0 0 4px white;
+}
+section a:hover{
+    text-shadow:0 0 2px white;
+}
+
+section.mainsec {
+    background-color:rgba(255, 255, 255, 0.2);
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius::6px;
+}
+
+nav#social{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+nav#social a{
+    display:block;
+}
+
+nav#social a:hover, nav#social a:focus {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.figs{
+    text-align:center;
+    margin-top: 0;
+}
+
+figure{
+    display:inline-block;
+    position:relative;
+    margin:1em 1em 0 0;
+    border:1em solid rgba(255, 255, 255, 0.2);
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    overflow:hidden;
+    width:150px;
+    padding:0;
+}
+
+figure h2{
+    display:none;
+    background-color:rgba(0, 0, 0, 0.6);
+    color:white;
+    width:150px;
+    text-align:center;
+    padding:5px 10px 10px;
+    position:absolute;
+    bottom:0;
+    font-size:1.1em;
+    padding:.2em 0;
+    margin:0;
+
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    -moz-transform:none;
+    -webkit-transform:none;
+
+}
+
+figure:hover{
+    border:1em solid rgba(255, 255, 255, 0.4);
+}
+
+figure:hover h2{
+    display:block;
+}
+
+aside{
+    display:inline-block;
+    background:rgba(0, 0, 0, 0.6);
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    -moz-box-shadow: 1px 1px 13px black;
+    -webkit-box-shadow: 1px 1px 13px black;
+    box-shadow: 1px 1px 13px black;
+    margin-bottom:1em;
+    float:right;
+    color:white;
+    margin: 1.3em 4em 0 1em;
+    padding:.3em;
+}
+
+aside h2{
+    text-align:center;
+    margin:0 0 .3em 0;
+    font-size:1.2em;
+}
+
+aside a{
+    color:white;
+}
+
+aside a:hover{
+    text-shadow:none;
+    text-decoration:none;
+}
+
+aside ul{
+    margin:0;
+    padding-left:2em;
+}
+
+aside.tech{
+    float:none;
+    background:transparent;
+    margin:0;
+    padding:.5em 1em;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    border-width:0 1px 0 1px;
+    border-style:solid;
+    border-color:white;
+    color:black;
+}
+
+aside.tech h4{
+    text-align:center;
+    margin:0 0 .1em 0;
+}
+
+/** Spécifique au descritptif CV */
+#styleswitcher {
+    color:white;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position:fixed;
+    right:.5em;
+    bottom:1em;
+    padding: 0.2em 0;
+    margin:0;
+    list-style-type:none;
+    text-align:center;
+    width:15em;
+    -moz-box-shadow: 1px 1px 13px black;
+    -webkit-box-shadow: 1px 1px 13px black;
+    box-shadow: 1px 1px 13px black;
+}
+
+#styleswitcher a{
+    color:white;
+    padding:0 1em;
+    display:block;
+    text-decoration:none;
+}
+
+#styleswitcher a.current{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-shadow:0 0 4px white;
+}
+
+#styleswitcher a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-shadow:0 0 4px yellow;
+}

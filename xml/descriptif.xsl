@@ -54,8 +54,9 @@
 				</div>
 				<ul id="styleswitcher">
 					<li>Sélectionnez un style : </li>
-					<li><a href="?css=blue" title="Style 'Bleu' (par défaut)">blue</a></li>
-					<li><a href="?css=black" title="Style 'Noir' (ancien)">black</a></li>
+					<li><a href="?css=ulysses" title="Style 'Ulysses' (par défaut)">ulysses</a></li>
+					<li><a href="?css=blue" title="Style 'Bleu' (ancien)">blue</a></li>
+					<li><a href="?css=black" title="Style 'Noir' (très ancien)">black</a></li>
 					<li><a href="?css=nostyle" title="Pas de style. Affiche le XHTML sans appliquer de style">no style</a></li>
 				</ul>
 				<xsl:call-template name="summary"></xsl:call-template>
@@ -97,7 +98,7 @@
 		</body>
 	</html>
 </xsl:template>
-	
+
 <xsl:template name="summary">
 	<ol id="summary">
 		<xsl:for-each select="//section">
@@ -116,20 +117,20 @@
 		<xsl:apply-templates/>
 	</div>
 </xsl:template>
-	
+
 <xsl:template match="para">
 	<xsl:if test="@titre">
 		<h1><xsl:value-of select="@titre"/></h1>
 	</xsl:if>
 	<p><xsl:apply-templates/></p>
 </xsl:template>
-	
+
 <xsl:template match="descriptif">
 	<div id="descriptif">
 		<xsl:apply-templates select="section"/>
 	</div>
 </xsl:template>
-	
+
 <xsl:template match="section">
 	<div>
 		<xsl:attribute name="id"><xsl:value-of select="translate(@nom,$from, $replace)"/></xsl:attribute>
@@ -153,7 +154,7 @@
 		<xsl:apply-templates select="element"/>
 	</div>
 </xsl:template>
-	
+
 <xsl:template match="element">
 	<p>
 		<a>
@@ -173,7 +174,7 @@
 		<xsl:value-of select="."/>
 	</a>
 </xsl:template>
-	
+
 <xsl:template match="acronyme">
 	<acronym>
 		<xsl:attribute name="title">
@@ -182,5 +183,5 @@
 		<xsl:value-of select="."/>
 	</acronym>
 </xsl:template>
-	
+
 </xsl:stylesheet>

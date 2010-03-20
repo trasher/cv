@@ -8,7 +8,11 @@ function getAcronym($acronym){
 	return $acronyms->get($acronym);
 }
 
-if(!isset($_GET["css"]) || trim($_GET["css"])==""){$_SESSION["css"] = "blue";}else{$_SESSION["css"]=$_GET["css"];}
+if ( !isset($_GET["css"]) || trim($_GET["css"]) == "" ) {
+    $_SESSION["css"] = "ulysses";
+} else {
+    $_SESSION["css"]=$_GET["css"];
+}
 $fichier="xml/descriptif.xml";
 
 $ng = new domDocument;
@@ -18,7 +22,11 @@ if (!$ng->relaxNGValidate('xml/descriptif.rng')) {
 }
 
 $xsl = new DomDocument();
-$xsl->load("xml/descriptif.xsl");
+if ( isset($_SESSION['css']) && $_SESSION['css'] == 'ulysses' ) {
+    $xsl->load("xml/descriptif-ulysses.xsl");
+} else {
+    $xsl->load("xml/descriptif.xsl");
+}
 $inputdom = new DomDocument();
 $inputdom->load($fichier);
 
