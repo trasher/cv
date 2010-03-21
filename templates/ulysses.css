@@ -105,11 +105,16 @@ footer p{
 
 footer a{
     color:white;
+    vertical-align:top;
 }
 
 footer a:hover{
     text-shadow:0 0 2px white;
     text-decoration:none;
+}
+
+footer img{
+    margin-left:.5em;
 }
 
 section {

@@ -74,7 +74,7 @@
                         </a>
                     </nav>
                     <footer>
-                        <p>© 2010 <a href="http://cv.ulysses.fr">Johan Cwiklinski</a> - <a href="http://www.amazon.fr/wishlist/18FZ3E3CX0WLR">Mes envies cadeaux</a></p>
+                        <p>© 2010 <a href="http://cv.ulysses.fr">Johan Cwiklinski</a> - <a href="http://www.amazon.fr/wishlist/18FZ3E3CX0WLR">Mes envies cadeaux</a> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/" title="Cette création est mise à disposition sous un contrat Creative Commons."><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/80x15.png" /></a></p>
                     </footer>
                 </div>
                 <ul id="styleswitcher">
