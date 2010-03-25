@@ -56,12 +56,9 @@
                     </header>
 
                     <xsl:call-template name="summary"></xsl:call-template>
-                    <xsl:apply-templates select="descriptif/section[1]" mode="render" />
+                    <xsl:apply-templates select="descriptif/section[1]" />
                     <xsl:apply-templates select="//presentation" />
-                    <section class="mainsec">
-                        <h2>Réalisations</h2>
-                        <xsl:apply-templates select="descriptif/section" />
-                    </section>
+                    <xsl:apply-templates select="descriptif/section[not(position() = 1)]" />
                     <nav id="social">
                         <a title="Mon compte twitter" href="http://twitter.com/johancwi">
                             <img alt="Twitter" src="templates/ulysses/twitter.png"/>
@@ -113,7 +110,7 @@
             <xsl:for-each select="$section/element">
                 <li>
                     <a>
-                        <xsl:attribute name="href">#<xsl:value-of select="translate(@nom,$from, $replace)"/></xsl:attribute>
+                        <xsl:attribute name="href">#<xsl:value-of select="concat(translate(parent::section/@nom, $from, $replace), '_', translate(@nom,$from, $replace))"/></xsl:attribute>
                         <xsl:value-of select="@nom" />
                     </a>
                 </li>
@@ -147,52 +144,30 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="section[1]" mode="render">
+    <xsl:template match="section">
         <section class="mainsec" id="{translate(@nom, $from, $replace)}">
             <h2>
-                <xsl:call-template name="sectiontitle">
-                    <xsl:with-param name="el" select="."/>
-                    <xsl:with-param name="first" select="boolean('true')"/>
-                </xsl:call-template>
+                <xsl:if test="@commentaire">
+                    <xsl:attribute name="title"><xsl:value-of select="@commentaire"/></xsl:attribute>
+                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="@lien">
+                        <a>
+                            <xsl:attribute name="href"><xsl:value-of select="@lien"/></xsl:attribute>
+                            <xsl:value-of select="@nom"/>
+                        </a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="@nom"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </h2>
-            <xsl:apply-templates select="element" mode="render"/>
+            <xsl:apply-templates select="element"/>
         </section>
     </xsl:template>
 
-
-    <xsl:template match="section[1]"/>
-
-    <xsl:template match="section">
-        <div id="{translate(@nom,$from, $replace)}" class="parts">
-        <h3>
-            <xsl:call-template name="sectiontitle">
-                <xsl:with-param name="el" select="."/>
-            </xsl:call-template>
-        </h3>
-            <xsl:apply-templates select="element"/>
-        </div>
-    </xsl:template>
-
-    <xsl:template name="sectiontitle">
-        <xsl:param name="el"/>
-        <xsl:choose>
-            <xsl:when test="$el/@lien">
-                <a>
-                    <xsl:attribute name="href"><xsl:value-of select="$el/@lien"/></xsl:attribute>
-                    <xsl:value-of select="$el/@nom"/>
-                </a>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="$el/@nom"/>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:if test="$el/@commentaire">
-            <xsl:value-of select="$space"/><span>(<xsl:value-of select="$el/@commentaire"/>)</span>
-        </xsl:if>
-    </xsl:template>
-
-    <xsl:template match="element" mode="render">
-        <h3>
+    <xsl:template match="element">
+        <h3 id="{concat(translate(parent::section/@nom, $from, $replace), '_', translate(@nom,$from, $replace))}">
             <a>
                 <xsl:attribute name="href">
                     <xsl:value-of select="@url"/>
@@ -200,25 +175,6 @@
                 <xsl:value-of select="@nom"/>
             </a><xsl:value-of select="$space"/>
         </h3>
-        <xsl:if test="not(@tech = '-')">
-            <aside class="tech">
-                <strong><xsl:text>Languages&#160;:</xsl:text></strong><xsl:value-of select="$space"/><xsl:value-of select="@tech"/>
-            </aside>
-        </xsl:if>
-        <p>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-
-    <xsl:template match="element">
-        <h4>
-            <a>
-                <xsl:attribute name="href">
-                    <xsl:value-of select="@url"/>
-                </xsl:attribute>
-                <xsl:value-of select="@nom"/>
-            </a>
-        </h4>
         <xsl:if test="not(@tech = '-')">
             <aside class="tech">
                 <strong><xsl:text>Languages&#160;:</xsl:text></strong><xsl:value-of select="$space"/><xsl:value-of select="@tech"/>
