@@ -33,7 +33,7 @@
 		<ligne>
 			<annee>Depuis 2008</annee>
 			<libelle>AJLSM, Bordeaux</libelle>
-			<poste>Administrateur système, Développeur</poste>
+			<poste>Chef de projet, Administrateur système</poste>
 			<descriptif>
 				<ligne>Développeur J2EE/XSL (création de logiciels documentaires basés sur les technologies XML, Java, Tomcat, Cocoon, ...)</ligne>
 				<ligne>Déploiement et administration de serveurs dédiés de tests et de production (CentOS, Gentoo) : Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, mise en place de listes de diffusion (Mailman)</ligne>
