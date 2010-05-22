@@ -63,9 +63,6 @@
                         <a title="Mon compte twitter" href="http://twitter.com/johancwi">
                             <img alt="Twitter" src="templates/ulysses/twitter.png"/>
                         </a>
-                        <a title="Mon profil Facebook" href="http://www.facebook.com/profile.php?id=753358560">
-                            <img alt="Facebook" src="templates/ulysses/facebook.png"/>
-                        </a>
                         <a title="Mon profil Linked In" href="http://www.linkedin.com/profile?viewProfile=&amp;key=8255601&amp;trk=tab_pro">
                             <img alt="Linked In" src="templates/ulysses/linkedin.png"/>
                         </a>
