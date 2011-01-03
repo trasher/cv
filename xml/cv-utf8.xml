@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cv titre="Développeur\nAdministrateur système">
+<cv titre="Chef de projet\nAdministrateur système">
 	<coordonnees>
 		<nom>CWIKLINSKI</nom><prenom>Johan</prenom>
 		<adresse>6 rue François Lévêque - Appt 88</adresse>
@@ -8,7 +8,7 @@
 		<tel>06 26 31 84 68</tel>
 		<url>http://blog.ulysses.fr</url>
 		<mail>johan@x-tnd.be</mail>
-		<comment>29 ans, marié, un enfant</comment>
+		<comment>30 ans, marié, un enfant</comment>
 	</coordonnees>
 	<competences nom="COMPÉTENCES PROFESSIONNELLES">
 		<competence nom="Développement">
