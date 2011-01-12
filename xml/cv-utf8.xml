@@ -24,8 +24,8 @@
 		</competence>
 		<competence nom="Informatique générale">
 			<ligne>Connaissances de base de Gimp, cryptographie <em>(SSL, GnuPG)</em></ligne>
-			<ligne>Maintenance de <lien url="https://admin.fedoraproject.org/pkgdb/users/packages/trasher">paquets RPM</lien> pour Fedora</ligne>
-			<ligne>Responsable de la <lien url="http://doc.fedora-fr.org">documentation francophone de Fedora (http://doc.fedora-fr.org)</lien></ligne>
+			<ligne>Maintenance (4 ans) de <lien url="http://doc.fedora-fr.org/wiki/La_création_de_RPM_pour_les_nuls_:_Création_du_fichier_SPEC_et_du_Paquetage">paquets RPM</lien> pour Fedora</ligne>
+			<ligne>Responsable (5 ans) de la <lien url="http://doc.fedora-fr.org">documentation francophone de Fedora (http://doc.fedora-fr.org)</lien></ligne>
 			<ligne>Membre fondateur de <lien url="http://asso.fedora-fr.org">l'association Fedora-fr</lien></ligne>
 		</competence>
 	</competences>
