@@ -25,7 +25,7 @@
         <element nom="Cantine" url="http://cantine.ulysses.fr" tech="Drupal">Mise en place d'un site pour mon projet de gestion de cantines scolaires. Site validé <acronyme>XHTML</acronyme> et <acronyme>CSS</acronyme>.</element>
         <element nom="X-TnD" url="http://x-tnd.be" tech="PHP - XML - XSL ">Conception et réalisation du site web X-TnD. Ce site est valide <acronyme>XHTML</acronyme> 1.1, <acronyme>CSS</acronyme> 2.0 et <acronyme>WAI</acronyme> AA. Une déclaration Opquast afin de mener une étude qualitative du site a été effectuée.</element>
     </section>
-    <section nom="Fedora" lien="http://fedora.ulysses.fr/" commentaire="Distribution GNU/Linux Fedora">
+    <section nom="Fedora" commentaire="Distribution GNU/Linux Fedora">
         <element nom="Documentation francophone" url="http://doc.fedora-fr.org" tech="MediaWiki">Administrateur et <lien url="http://doc.fedora-fr.org/w/index.php?title=Spécial:Contributions&#038;tagfilter=&#038;contribs=user&#038;target=JohanCwiklinski&#038;namespace=&#038;year=&#038;month=-1">rédacteur de la documentation</lien> francophone de Fedora.</element>
 	<element nom="Packaging" url="https://admin.fedoraproject.org/pkgdb/users/packages/trasher" tech="Tous langages">Création (empaquetage) de binaires RPM à destination des dépôts officiels de Fedora.</element>
 	<element nom="Association Fedora-fr" url="http://asso.fedora-fr.org" tech="-">Création de l'association Fedora-fr, ancien trésorier de l'association ; administrateur du site web et de la gestion des adhérents, création du thème graphique.</element>
