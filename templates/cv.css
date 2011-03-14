@@ -100,3 +100,30 @@ ul{
     font-weight:bold;
     font-style:italic;
 }
+
+@media (max-width: 640px) {
+
+    /* passer tous les éléments de largeur fixe en largeur automatique */
+    body, .content {
+        width: auto !important;
+        margin: auto !important;
+        padding: auto !important;
+    }
+
+    /* gestion des mots longs */
+    table, td, th {
+        word-wrap: break-word; /* césure forcée */
+        white-space: pre-line; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+    }
+
+    /* Main css 'hacks' */
+    body{
+        margin:.2em!important;
+    }
+}
+
+@media screen and (max-width:640px) and (orientation: landscape) {
+    body {
+        -webkit-text-size-adjust: 70%;
+    }
+}

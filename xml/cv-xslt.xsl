@@ -12,6 +12,7 @@
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
                 <link rel="shortcut icon" href="http://ulysses.fr/favicon.jpg"/>
                 <link type="text/css" rel="stylesheet"  href="templates/cv.css"/>
+                <meta name="viewport" content="width=device-width" />
             </head>
             <body>
                 <xsl:apply-templates select="cv"/>
