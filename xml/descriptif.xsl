@@ -38,6 +38,7 @@
                     @import 'templates/<xsl:value-of select="$css"/>.css';
                 </style>
             </xsl:if>
+            <meta name="viewport" content="width=device-width" />
         </head>
         <body>
             <div id="content">
