@@ -33,6 +33,7 @@
                     <link rel="stylesheet" href="templates/ulysses/styles-ie.css" />
                     <script src="templates/ulysses/html5-ie.js"></script>
                 <![CDATA["/><![endif]]]></xsl:comment>
+                <meta name="viewport" content="width=device-width" />
             </head>
             <body>
                 <div class="content">

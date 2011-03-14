@@ -281,6 +281,91 @@ aside.tech h4{
     margin:0 0 .1em 0;
 }
 
+@media (max-width: 640px) {
+
+    /* passer tous les éléments de largeur fixe en largeur automatique */
+    body, element1, element2 {
+        width: auto !important;
+        margin: auto !important;
+        padding: auto !important;
+    }
+
+    /* fixer une largeur maximale  de 100 % aux éléments potentiellement problématiques */
+    img, table, td, blockquote, code, pre, textarea, input, object, embed, video {
+        max-width: 100% !important;
+    }
+
+    /* gestion des mots longs */
+    textarea, table, td, th, code, pre, samp {
+        word-wrap: break-word; /* césure forcée */
+        white-space: pre-line; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+    }
+
+    /* masquer les éléments superflus */
+    .mhide, #social {
+        display: none !important;
+    }
+
+    /* Un message personnalisé */
+    body:before {
+        /*content: "BETA - Version mobile - BETA";*/
+        display: block;
+        color: #777;
+        text-align: center;
+        font-style: italic;
+    }
+
+    /* Main css 'hacks' */
+    body{
+        margin:.2em .5em!important;
+    }
+
+    .content{
+        margin-right:0;
+    }
+
+    .mainsec h2 {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        display:block;
+        width:auto;
+    }
+
+    footer{
+        display:block;
+        float:none;
+    }
+
+    section {
+        margin-right:0;
+    }
+
+    aside{
+        float:none;
+        width:auto;
+        display:block;
+        margin:0;
+    }
+
+    figure h2{
+        display:block;
+    }
+
+    header nav{
+        position:relative;
+        text-align:right;
+    }
+
+    header h1{
+        font-size:1.5em;
+    }
+}
+
+@media screen and (max-width:640px) and (orientation: landscape) {
+    body {
+        -webkit-text-size-adjust: 70%;
+    }
+}
 /** Spécifique au descritptif CV */
 #styleswitcher {
     color:white;
@@ -316,4 +401,13 @@ aside.tech h4{
 #styleswitcher a:hover{
     background-color: rgba(255, 255, 255, 0.2);
     text-shadow:0 0 4px yellow;
+}
+
+@media (max-width: 640px) {
+    #styleswitcher{
+        margin-top:2em;
+        margin:2em 0 .2em .5em!important;
+        position:relative;
+        width:auto;
+    }
 }
