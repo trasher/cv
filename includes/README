@@ -1,0 +1,2 @@
+You'll have to clone TCPDF's GIT in order to use that:
+% git clone git://tcpdf.git.sourceforge.net/gitroot/tcpdf/tcpdf

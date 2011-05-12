@@ -1,5 +1,5 @@
 <?php
-require_once 'includes/tcpdf-4.8.020/tcpdf.php';
+require_once 'includes/tcpdf/tcpdf.php';
 
 class PDF extends TCPDF
 {
@@ -247,6 +247,8 @@ $pdf->setHeaderMargin(0);
 
 // Show full page
 $pdf->SetDisplayMode('fullpage');
+
+//$pdf->setFontSubsetting();
 
 $pdf->SetMargins(PDF_MARGIN_LEFT, 10, PDF_MARGIN_RIGHT);
 $pdf->SetAutoPageBreak(false, PDF_MARGIN_BOTTOM);
