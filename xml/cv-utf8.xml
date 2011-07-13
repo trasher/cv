@@ -31,14 +31,14 @@
 	</competences>
 	<titre nom="EXPÉRIENCE PROFESSIONNELLE">
 		<ligne>
-			<annee>Depuis 2008</annee>
+			<annee>2008-2011</annee>
 			<libelle>AJLSM, Bordeaux</libelle>
 			<poste>Chef de projet, Administrateur système</poste>
 			<descriptif>
 				<ligne>Développeur J2EE/XSL (création de logiciels documentaires basés sur les technologies XML, Java, Tomcat, Cocoon, ...)</ligne>
-				<ligne>Déploiement et administration de serveurs dédiés de tests et de production (CentOS, Gentoo) : Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, mise en place de listes de diffusion (Mailman), Apache Solr</ligne>
+				<ligne>Déploiement et administration de serveurs dédiés de tests et de production (CentOS, Debian) : Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, mise en place de listes de diffusion (Mailman), Apache Solr</ligne>
 				<ligne>Responsable des systèmes de gestion de versions (CVS, Subversion, Mercurial, GIT)</ligne>
-				<ligne>Mise en oeuvre de solutions de virtualisation</ligne>
+				<ligne>Mise en oeuvre de solutions de virtualisation (VMWare, KVM)</ligne>
 				<ligne>Gestion et suivi des projets avec les clients</ligne>
 				<ligne>Réponses aux appels d'offres</ligne>
 			</descriptif>
