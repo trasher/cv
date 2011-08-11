@@ -30,6 +30,16 @@
 		</competence>
 	</competences>
 	<titre nom="EXPÉRIENCE PROFESSIONNELLE">
+        <ligne>
+            <annee>Depuis 2011</annee>
+            <libelle>Bob el Web, Bordeaux</libelle>
+            <poste>Ingénieur d'études Web</poste>
+            <descriptif>
+                <ligne>Gestion de projets</ligne>
+                <ligne>Administrateur système (Debian GNU/Linux et Fedora)</ligne>
+                <ligne>Développeur PHP et JavaScript</ligne>
+            </descriptif>
+        </ligne>
 		<ligne>
 			<annee>2008-2011</annee>
 			<libelle>AJLSM, Bordeaux</libelle>
@@ -54,7 +64,7 @@
 				<ligne>Administration système et réseaux sur l'infrastructure du centre serveur (Mandriva)</ligne>
 			</descriptif>
 		</ligne>
-		<ligne>
+		<ligne break="true">
 			<annee>2007</annee>
 			<libelle>Pandoc/Diodé - Ministère de l'Équipement</libelle>
 			<poste>Développeur Web - WCAG</poste>
@@ -64,7 +74,7 @@
 				<ligne>Développement et déboguage d'applications Tomcat/Cocoon/Lucene</ligne>
 			</descriptif>
 		</ligne>
-		<ligne break="true">
+		<ligne>
 			<annee>2006-2007</annee>
 			<libelle>S.A.R.L Neximedia, Lille</libelle>
 			<poste>Développeur Web</poste>
@@ -79,7 +89,7 @@
 			<libelle>E.U.R.L. HARDWARE et COMMUNICATION, Douai</libelle>
 			<poste>Responsable système et développement</poste>
 			<descriptif>
-				<ligne>Déploiement et administration de serveurs dédiés sous Fedora pour un usage en tant que serveur Web (Apache HTTPD/PHP/MySQL) ou de Fax (Hylafax)</ligne>
+				<ligne>Déploiement et administration de serveurs dédiés sous Fedora (Apache HTTPD, PHP/MySQL, Hylafax)</ligne>
 				<ligne>Conception et développement d'applications de bureau en Java (notamment <lien url="http://cantine.ulysses.fr">un logiciel de gestion de cantines scolaires</lien>).</ligne>
 				<ligne>Gestion et administration du parc informatique (réseau, sauvegardes)</ligne>
 				<ligne>Développement de sites Web respectueux des standards du web</ligne>
