@@ -111,7 +111,7 @@ class PDF extends TCPDF
 	*
 	* @return void
 	*/
-	function parseNode($node, $typo_size_var)
+	function parseNode($node, $typo_size_var = 0)
 	{
 		$newnode = dom_import_simplexml($node);
 		foreach ( $newnode->childNodes as $child ) {
