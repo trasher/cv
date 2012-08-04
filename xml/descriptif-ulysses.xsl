@@ -15,18 +15,16 @@
                 <meta charset="utf-8" />
                 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
                 <title>...::: Johan Cwiklinski - Curriculum Vitae :::...</title>
-                <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
-                <meta name="DC.title" content="Site personnel de Johan Cwiklinski" />
-                <meta name="DC.Publisher" content="Johan Cwiklinski"/>
-                <meta name="DC.Language" content="fr"/>
-                <meta name="DC.Identifier" content="dublin_core"/>
-                <meta name="DC.Creator" content="Johan CWIKLINSKI"/>
+                <meta property="http://purl.org/dc/elements/1.1/title" content="Site personnel de Johan Cwiklinski" />
+                <meta property="http://purl.org/dc/elements/1.1/publisher" content="Johan Cwiklinski"/>
+                <meta property="http://purl.org/dc/elements/1.1/language" content="fr"/>
+                <meta property="http://purl.org/dc/elements/1.1/creator" content="Johan CWIKLINSKI"/>
                 <meta name="description" content="Johan Cwiklinski : Curriculum Vitae et présentation des réalisations et savoir-faire"/>
                 <meta name="keywords" content="johan, cwiklinski, curriculum vitae, réalisation de sites web, programmation, webmaster, webmestre, java, php, linux, redhat, réseau, logiciels open source, trasher"/>
                 <meta name="author" content="Johan Cwiklinski" />
                 <meta name="geo.placename" content="Bordeaux, Gironde, Aquitaine, France" />
-                <meta name="DC.Date.created" content="{/descriptif/@DCdate}"/>
-                <meta name="DC.Date.modified" content="{/descriptif/@DCdateModif}"/>
+                <meta property="http://purl.org/dc/elements/1.1/date http://purl.org/dc/terms/created" content="{/descriptif/@DCdate}"/>
+                <meta property="http://purl.org/dc/elements/1.1/date http://purl.org/dc/terms/modified" content="{/descriptif/@DCdateModif}"/>
                 <link rel="shortcut icon" href="http://ulysses.fr/favicon.jpg"/>
                 <link rel="stylesheet" href="templates/{$css}.css" />
                 <xsl:comment><![CDATA[[if IE]>
@@ -48,10 +46,10 @@
                         <h1><a href="http://cv.ulysses.fr">Johan Cwiklinski - Curriculum Vitae</a></h1>
                         <nav role="navigation">
                             <a href="http://ulysses.fr" title="Accueil du site">Accueil</a>
+                            <a href="http://ulysses.fr/projects.php" title="Mes projets (sur ulysses.fr)">Projets</a>
+                            <a href="http://x-tnd.be" title="Présentation de mon activité d'auto-entrepreneur">Auto-Entreprise</a>
                             <a href="http://blog.ulysses.fr" title="Mon blog">Blog</a>
                             <a href="http://cv.ulysses.fr" title="Mon curriculum Vitae" class="current">CV</a>
-                            <a href="http://ulysses.fr/projects.php" title="Mes projets (sur ulysses.fr)">Projets</a>
-                            <a href="http://zia.ulysses.fr" title="Le blog de ma petite fille">Zia</a>
                             <a href="http://ulysses.fr/about.php" title="À propos (sur ulysses.fr)">...</a>
                         </nav>
                     </header>
@@ -67,9 +65,12 @@
                         <a title="Mon profil Linked In" href="http://linkedin.com/in/johancwiklinski">
                             <img alt="Linked In" src="templates/ulysses/linkedin.png"/>
                         </a>
+                        <a title="Ma page Google+" href="https://plus.google.com/116251525337893141428">
+                            <img alt="Twitter" src="templates/ulysses/gplus.png"/>
+                        </a>
                     </nav>
                     <footer>
-                        <p>© 2010 <a href="http://cv.ulysses.fr">Johan Cwiklinski</a> - <a href="http://www.amazon.fr/wishlist/18FZ3E3CX0WLR">Mes envies cadeaux</a> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/" title="Cette création est mise à disposition sous un contrat Creative Commons."><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/80x15.png" /></a></p>
+                        <p>© 2012 <a href="http://cv.ulysses.fr">Johan Cwiklinski</a> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/" title="Cette création est mise à disposition sous un contrat Creative Commons."><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/80x15.png" /></a></p>
                     </footer>
                 </div>
                 <ul id="styleswitcher">
