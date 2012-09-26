@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cv titre="Senior developer\nSystem administrator">
+    <coordonnees>
+        <nom>CWIKLINSKI</nom><prenom>Johan</prenom>
+        <adresse>6 rue François Lévêque - Appt 88</adresse>
+        <cp>33300</cp><ville>BORDEAUX</ville>
+        <tel>+33 5 56 04 19 13</tel>
+        <tel>+33 6 12 59 90 91</tel>
+        <url>http://ulysses.fr</url>
+        <mail>johan@x-tnd.be</mail>
+        <comment>32, married, one child</comment>
+    </coordonnees>
+    <competences nom="TECHNICAL SKILLS">
+        <competence nom="Development">
+            <ligne>Java applications design and development <em>(JDBC, Swing, JDOM, Servlets, Lucene)</em>, Python, PHP <em>(versions 4 and 5)</em>, ...</ligne>
+            <ligne>Servlets design and development with Apache Tomcat, Cocoon, XML database <em>(eXist)</em></ligne>
+            <ligne>SQL databases design and management <em>(MySQL, PostgreSQL, Access, HSQLDB, Derby)</em></ligne>
+            <ligne>Normalized websites design <em>(XHTML, CSS, WAI, JavaScript, XML, XSL)</em></ligne>
+        </competence>
+        <competence nom="System administration">
+            <ligne>GNU/Linux operating system <em>(Red Hat, Fedora, Debian)</em> deployment and administration</ligne>
+            <ligne>Servers administration <em>(Apache, Samba, Subversion, Postfix, MySQL, PostgreSQL)</em></ligne>
+            <ligne>TCP/IP, Ethernet and Wi-Fi networks installation and management</ligne>
+        </competence>
+        <competence nom="Information Technology">
+            <ligne>Basic cryptography knowledge <em>(SSL, GnuPG)</em>, The Gimp notions</ligne>
+            <ligne><lien url="http://doc.fedora-fr.org/wiki/La_création_de_RPM_pour_les_nuls_:_Création_du_fichier_SPEC_et_du_Paquetage">RPM Package</lien> maintainer for Fedora</ligne>
+            <ligne><lien url="http://doc.fedora-fr.org">French speaking Fedora documentation (http://doc.fedora-fr.org)</lien> leader for 5 years</ligne>
+            <ligne><lien url="http://borsalinux-fr.org/">Fedora-fr non profit organization</lien> founding member</ligne>
+            <ligne>Project leader of <lien url="http://galette.tuxfamily.org">Galette</lien>, a Free (as in freedom!) membership management web application towards non profit organizations</ligne>
+        </competence>
+    </competences>
+    <titre nom="PROFESSIONAL EXPERIENCE">
+        <ligne>
+            <annee>Since 2012</annee>
+            <libelle>Self-employed</libelle>
+            <poste>Software engineer</poste>
+            <descriptif>
+                <ligne>Various developments, as part of <lien url="http://x-tnd.be">my self-employment activity</lien>.</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>Since 2011</annee>
+            <libelle>Bob el Web, Bordeaux</libelle>
+            <poste>Web software engineer, System administrator</poste>
+            <descriptif>
+                <ligne>Technical leader</ligne>
+                <ligne>System administration (Debian GNU/Linux and Fedora)</ligne>
+                <ligne>PHP and JavaScript developer</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>2008-2011</annee>
+            <libelle>AJLSM, Bordeaux</libelle>
+            <poste>Project manager, System administrator</poste>
+            <descriptif>
+                <ligne>J2EE/XSL developer (documentary search applications design, based on XML, Java, Tomcat, Cocoon, ...)</ligne>
+                <ligne>Tests and production dedicated servers deployment (CentOS, Debian): Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, mailing lists (Mailman), Apache Solr</ligne>
+                <ligne>Version Control System manager (CVS, Subversion, Mercurial, GIT)</ligne>
+                <ligne>Implement virtualization solutions (VMWare, KVM)</ligne>
+                <ligne>Project management and customers relations</ligne>
+                <ligne>Tender writing</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>2007-2008</annee>
+            <libelle>Ministère de l'Écologie - Central Administration</libelle>
+            <poste>Java/XML/Tomcat Expert</poste>
+            <descriptif>
+                <ligne>Documentary search applications design (Tomcat/Cocoon/Lucene)</ligne>
+                <ligne>Documentary search notices management design and development (<lien url="http://notix.org">Notix</lien>)</ligne>
+                <ligne>Deployment on production servers of <lien url="http://notix.org">Notix</lien> solutions, various versions</ligne>
+                <ligne>System and network administration on the server center infrastructure (Mandriva)</ligne>
+            </descriptif>
+        </ligne>
+        <ligne break="true">
+            <annee>2007</annee>
+            <libelle>Pandoc/Diodé - Ministère de l'Équipement</libelle>
+            <poste>Web - WCAG developer</poste>
+            <descriptif>
+                <ligne>Apply XHTML/CSS/WCAG AA standards on various documentary search solutions based on web technologies (Tomcat, Java, XML, Cocoon)</ligne>
+                <ligne>Deployment and administration of a new Control Version System (Subversion), users training</ligne>
+                <ligne>Development and debuging of Tomcat/Cocoon/Lucene applications</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>2006-2007</annee>
+            <libelle>S.A.R.L Neximedia, Lille</libelle>
+            <poste>Web developer</poste>
+            <descriptif>
+                <ligne>PHP/MySQL solutions development and design, XHTML/CSS valid websites creation ; based on Open Source CMS (Joomla, Drupal), specific modules development.</ligne>
+                <ligne>Social network portal development</ligne>
+                <ligne>Company servers administration (Apache httpd, MySQL, PHP)</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>2004-2006</annee>
+            <libelle>E.U.R.L. HARDWARE et COMMUNICATION, Douai</libelle>
+            <poste>System and Development manager</poste>
+            <descriptif>
+                <ligne>Fedora servers deployment and administration (Apache HTTPD, PHP/MySQL, Hylafax)</ligne>
+                <ligne>Design and development of various Java desktop applications (especially <lien url="http://cantine.ulysses.fr">a school canteen management software</lien>).</ligne>
+                <ligne>Administration of all computers (including network, backups)</ligne>
+                <ligne>Websites development according to standards</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>2002-2003</annee>
+            <libelle>S.A.R.L. NEUROSYNTHETIC, Lille</libelle>
+            <poste>Web developer</poste>
+            <descriptif>
+                <ligne>Showcases websites development (XHTML, CSS, JavaScript)</ligne>
+                <ligne>Intranet applications design and development, based on web technologies (PHP/MySQL-Access)</ligne>
+                <ligne>Administration of all computers</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>2000-2002</annee>
+            <libelle>S.A. SOLIBATI ET DÉCOR, Escautpont</libelle>
+            <poste>IT manager</poste>
+            <descriptif>
+                <ligne>Company computers management (hardware and software)</ligne>
+                <ligne>Internal business applications design and development</ligne>
+                <ligne>Director board member</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>1998-2000</annee>
+            <libelle>DEFOORT NATURAVIE, Valenciennes</libelle>
+            <poste>Database management</poste>
+            <descriptif>
+                <ligne>Products database update and maintainance, cash-register updates, printings</ligne>
+                <ligne>Design and Development of an Access application to manage products</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>1997</annee>
+            <libelle>S.A.R.L. SOLIDECO, Escautpont</libelle>
+            <poste>IT manager</poste>
+            <descriptif>
+                <ligne>Build network</ligne>
+                <ligne>Installation and configuration of various required softwares</ligne>
+                <ligne>Record keeping</ligne>
+            </descriptif>
+        </ligne>
+    </titre>
+    <titre nom="EDUCATION">
+        <ligne>
+            <annee>2000-2012</annee>
+            <libelle>Self-training (system, network end development).</libelle>
+        </ligne>
+        <ligne>
+            <annee>2000</annee>
+            <libelle>BTS "Informatique de Gestion" qualification.</libelle>
+        </ligne>
+        <ligne>
+            <annee>1998</annee>
+            <libelle>Baccalaureate STT ("Sciences et Techniques Tertiaires") "Comptabilité/Gestion", with distinction.</libelle>
+        </ligne>
+    </titre>
+    <titre nom="HOBBIES AND INTERESTS">
+        <ligne>
+            <annee>Languages</annee>
+            <libelle>English (technical),<br/>Spanish (beginner)</libelle>
+        </ligne>
+        <ligne>
+            <annee>Leisure</annee>
+            <libelle>Computering, reading, cinema, graphism, music</libelle>
+        </ligne>
+        <ligne>
+            <annee>Open Source projects</annee>
+            <libelle>Involved in various FOSS projects (<lien url="http://galette.tuxfamily.org">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="http://pypass.org">PyPass</lien>, ...), <lien url="http://x-tnd.be">Self-employed</lien>.</libelle>
+        </ligne>
+    </titre>
+</cv>
