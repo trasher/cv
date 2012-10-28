@@ -1,1 +1,4 @@
 includes/tcpdf
+.vimfiles.cv
+quick_gen_project_cv_autogen.sh
+cv.vimentry
