@@ -1,6 +1,11 @@
 <?php
+
+require_once 'includes/cv.inc.php';
 require_once 'includes/tcpdf/tcpdf.php';
 
+/**
+ * CV Specific PDF class
+ */
 class PDF extends TCPDF
 {
     const TXT_SIZE = 8;        //size for texts
@@ -49,9 +54,9 @@ class PDF extends TCPDF
         $this->Cell(0, self::STD_LINE_H, $arrCoords->prenom . ' ' . $arrCoords->nom, $this->_borders, 1, 'L');
         $this->SetFont('dejavusans', '', self::COORDS_SIZE);
         $this->Cell(0, self::STD_LINE_H, $arrCoords->adresse, $this->_borders, 1, 'L');
-//         $this->SetFont('dejavusansb', '', self::COORDS_SIZE);
+        //$this->SetFont('dejavusansb', '', self::COORDS_SIZE);
         $this->Cell(0, self::STD_LINE_H, $arrCoords->cp . ' ' . $arrCoords->ville, $this->_borders, 1, 'L');
-//         $this->SetFont('dejavusans', '', self::COORDS_SIZE);
+        //$this->SetFont('dejavusans', '', self::COORDS_SIZE);
         $xval = $this->GetX();
         $yval = $this->GetY();
         $this->Image('images/phone.jpg', $xval, $yval, 5);
@@ -59,7 +64,7 @@ class PDF extends TCPDF
         $cpte = 0;
         $tels = null;
         foreach ( $arrCoords->tel as $tel ) {
-            if ( $cpte > 0 ){
+            if ( $cpte > 0 ) {
                 $tels .= ' / ';
             }
             $tels .= $tel;
@@ -195,7 +200,7 @@ class PDF extends TCPDF
                     $this->setX($x + $libelleW);
                     $this->Cell($dateW, self::STD_LINE_H, $line->annee, $this->_borders, 0, 'R');
                     $this->setX($x);
-                    $this->MultiCell($libelleW, self::STD_LINE_H, $this->CodeBreaks($line->libelle), $this->_borders,'L');
+                    $this->MultiCell($libelleW, self::STD_LINE_H, $this->CodeBreaks($line->libelle), $this->_borders, 'L');
                     $this->setY(($this->getY() > $yend) ? $this->getY() +1 : $yend + 1);
                     $this->drawDescription($line->descriptif);
                     //$y = ($this->getY()>$yend) ? $this->getY() : $yend;
@@ -203,7 +208,7 @@ class PDF extends TCPDF
                     /*if ( $count < $this->cptPostes ) {
                         $this->Line($xorig, $this->getY(), $xorig+190, $this->getY(), $this->_line);
                     }*/
-                }else{
+                } else {
                     $count++;
                     $this->setY($y);
                     $x += 60;
@@ -224,7 +229,11 @@ class PDF extends TCPDF
     }
 }
 
-$cv = simplexml_load_file('xml/cv-utf8.xml');
+$filename = 'xml/cv-utf8.xml';
+if ( $session['lang'] === 'en' ) {
+    $filename = 'xml/cv-en.xml';
+}
+$cv = simplexml_load_file($filename);
 $arrayCoords = $cv->xpath('//coordonnees');
 $competences = $cv->xpath('//competences');
 $postes = $cv->xpath("//poste");
@@ -248,15 +257,10 @@ $pdf->setHeaderMargin(0);
 // Show full page
 $pdf->SetDisplayMode('fullpage');
 
-//$pdf->setFontSubsetting();
-
 $pdf->SetMargins(PDF_MARGIN_LEFT, 10, PDF_MARGIN_RIGHT);
 $pdf->SetAutoPageBreak(false, PDF_MARGIN_BOTTOM);
 
 $pdf->AliasNbPages();
-//$pdf->AddFont('gill', '', 'gill.php');
-//$pdf->AddFont('gillb', '', 'gillb.php');
-//$pdf->AddFont('gilli', '', 'gili.php');
 $pdf->AddPage();
 $pdf->SetTextColor(0, 0, 0);
 $pdf->Coordonnees($arrayCoords[0], $cv['titre']);

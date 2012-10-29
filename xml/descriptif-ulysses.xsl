@@ -8,16 +8,15 @@
     <xsl:param name="ip"/>
     <xsl:param name="css"/>
 
-
     <xsl:template match="/">
-        <html lang="fr">
+        <html lang="{$lang}">
             <head>
                 <meta charset="utf-8" />
                 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
                 <title>...::: Johan Cwiklinski - Curriculum Vitae :::...</title>
-                <meta property="http://purl.org/dc/elements/1.1/title" content="Site personnel de Johan Cwiklinski" />
+                <meta property="http://purl.org/dc/elements/1.1/title" content="Johan Cwiklinski - Curriculum Vitae" />
                 <meta property="http://purl.org/dc/elements/1.1/publisher" content="Johan Cwiklinski"/>
-                <meta property="http://purl.org/dc/elements/1.1/language" content="fr"/>
+                <meta property="http://purl.org/dc/elements/1.1/language" content="{$lang}"/>
                 <meta property="http://purl.org/dc/elements/1.1/creator" content="Johan CWIKLINSKI"/>
                 <meta name="description" content="Johan Cwiklinski : Curriculum Vitae et présentation des réalisations et savoir-faire"/>
                 <meta name="keywords" content="johan, cwiklinski, curriculum vitae, réalisation de sites web, programmation, webmaster, webmestre, java, php, linux, redhat, réseau, logiciels open source, trasher"/>
@@ -45,13 +44,22 @@
                     <header role="banner">
                         <h1><a href="http://cv.ulysses.fr">Johan Cwiklinski - Curriculum Vitae</a></h1>
                         <nav role="navigation">
-                            <a href="http://ulysses.fr" title="Accueil du site">Accueil</a>
-                            <a href="http://ulysses.fr/projects.php" title="Mes projets (sur ulysses.fr)">Projets</a>
-                            <a href="http://x-tnd.be" title="Présentation de mon activité d'auto-entrepreneur">Auto-Entreprise</a>
-                            <a href="http://blog.ulysses.fr" title="Mon blog">Blog</a>
-                            <a href="http://cv.ulysses.fr" title="Mon curriculum Vitae" class="current">CV</a>
-                            <a href="http://ulysses.fr/about.php" title="À propos (sur ulysses.fr)">...</a>
+                            <a href="http://ulysses.fr" title="{php:functionString('_T', 'Website home')}"><xsl:value-of select="php:functionString('_T', 'Home')"/></a>
+                            <a href="http://ulysses.fr/projects.php" title="{php:functionString('_T', 'My projects (on ulysses.fr)')}"><xsl:value-of select="php:functionString('_T', 'Projects')"/></a>
+                            <a href="http://x-tnd.be" title="{php:functionString('_T', 'Self-employment activity presentation')}"><xsl:value-of select="php:functionString('_T', 'Self-employment')"/></a>
+                            <a href="http://blog.ulysses.fr" title="{php:functionString('_T', 'My blog')}">Blog</a>
+                            <a href="http://cv.ulysses.fr" title="Curriculum Vitae" class="current">CV</a>
+                            <a href="http://ulysses.fr/about.php" title="{php:functionString('_T', 'About (on ulysses.fr)')}">...</a>
                         </nav>
+                        <aside id="language">
+                            <ul>
+                                <li>
+                                    <xsl:value-of select="php:functionString('_T', 'Change language:')"/>
+                                </li>
+                                <li><a href="?lang=en">English</a></li>
+                                <li><a href="?lang=fr">Français</a></li>
+                            </ul>
+                        </aside>
                     </header>
 
                     <xsl:call-template name="summary"></xsl:call-template>
@@ -59,26 +67,26 @@
                     <xsl:apply-templates select="//presentation" />
                     <xsl:apply-templates select="descriptif/section[not(position() = 1)]" />
                     <nav id="social">
-                        <a title="Mon compte twitter" href="http://twitter.com/johancwi">
+                        <a title="{php:functionString('_T', 'My twitter account')}" href="http://twitter.com/johancwi">
                             <img alt="Twitter" src="templates/ulysses/twitter.png"/>
                         </a>
-                        <a title="Mon profil Linked In" href="http://linkedin.com/in/johancwiklinski">
+                        <a title="{php:functionString('_T', 'My LinkedIn profile')}" href="http://linkedin.com/in/johancwiklinski">
                             <img alt="Linked In" src="templates/ulysses/linkedin.png"/>
                         </a>
-                        <a title="Ma page Google+" href="https://plus.google.com/116251525337893141428">
-                            <img alt="Twitter" src="templates/ulysses/gplus.png"/>
+                        <a title="{php:functionString('_T', 'My Google+ page')}" href="https://plus.google.com/116251525337893141428">
+                            <img alt="Google Plus" src="templates/ulysses/gplus.png"/>
                         </a>
                     </nav>
                     <footer>
-                        <p>© 2012 <a href="http://cv.ulysses.fr">Johan Cwiklinski</a> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/" title="Cette création est mise à disposition sous un contrat Creative Commons."><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/80x15.png" /></a></p>
+                        <p>© 2012 <a href="http://cv.ulysses.fr">Johan Cwiklinski</a> <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/80x15.png" /></a></p>
                     </footer>
                 </div>
                 <ul id="styleswitcher">
-                    <li>Thème : </li>
-                    <li><a href="?css=ulysses" title="Style 'Ulysses' (par défaut)" class="current">ulysses</a></li>
-                    <li><a href="?css=blue" title="Style 'Bleu' (ancien)">blue</a></li>
-                    <li><a href="?css=black" title="Style 'Noir' (très ancien)">black</a></li>
-                    <li><a href="?css=nostyle" title="Pas de style. Affiche le XHTML sans appliquer de style">no style</a></li>
+                    <li><xsl:value-of select="php:functionString('_T', 'Design:')"/></li>
+                    <li><a href="?css=ulysses" title="{php:functionString('_T', 'Ulysses style (default)')}" class="current">ulysses</a></li>
+                    <li><a href="?css=blue" title="{php:functionString('_T', 'Blue style (old)')}">blue</a></li>
+                    <li><a href="?css=black" title="{php:functionString('_T', 'Black style (very old)')}">black</a></li>
+                    <li><a href="?css=nostyle" title="{php:functionString('_T', 'No style: displays XHTML without style')}">no style</a></li>
                 </ul>
             </body>
         </html>
@@ -126,7 +134,7 @@
     <xsl:template match="para">
         <xsl:if test="@titre">
             <xsl:choose>
-                <xsl:when test="@titre = 'Qui suis-je ?'">
+                <xsl:when test="@titre = 'Qui suis-je ?' or @titre='Who am I?'">
                     <h2><xsl:value-of select="@titre"/></h2>
                 </xsl:when>
                 <xsl:otherwise>

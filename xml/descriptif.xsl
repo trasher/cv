@@ -9,7 +9,7 @@
 <xsl:param name="css"/>
 
 <xsl:template match="/">
-    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$lang}">
         <head>
             <title>...::: Johan Cwiklinski - Curriculum Vitae :::...</title>
             <meta name="Author" content="Johan CWIKLINSKI"/>
@@ -19,7 +19,7 @@
             <!-- dublin core metas -->
             <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
             <meta name="DC.Publisher" content="Johan Cwiklinski - X-TnD"/>
-            <meta name="DC.Language" scheme="RFC3066" content="fr"/>
+            <meta name="DC.Language" scheme="RFC3066" content="{$lang}"/>
             <meta name="DC.Identifier" content="dublin_core"/>
             <meta name="DC.Creator" content="Johan CWIKLINSKI"/>
             <meta>
@@ -48,17 +48,18 @@
                         <param name="movie" value="images/trashyland.swf" />
                         <param name="quality" value="high" />
                         <param name="bgcolor" value="#000000" />
-                        <img src="images/trashyland.jpg" alt="TrashyLand - Partie personelle de Trasher"/>
+                        <img src="images/trashyland.jpg" alt=""/>
                     </object>
                     </xsl:if>
                     <xsl:value-of select="$space"/>
                 </div>
                 <ul id="styleswitcher">
-                    <li>Sélectionnez un style : </li>
-                    <li><a href="?css=ulysses" title="Style 'Ulysses' (par défaut)">ulysses</a></li>
-                    <li><a href="?css=blue" title="Style 'Bleu' (ancien)">blue</a></li>
-                    <li><a href="?css=black" title="Style 'Noir' (très ancien)">black</a></li>
-                    <li><a href="?css=nostyle" title="Pas de style. Affiche le XHTML sans appliquer de style">no style</a></li>
+                    <li><xsl:value-of select="php:functionString('_T', 'Select a style:')"/></li>
+
+                    <li><a href="?css=ulysses" title="{php:functionString('_T', 'Ulysses style (default)')}" class="current">ulysses</a></li>
+                    <li><a href="?css=blue" title="{php:functionString('_T', 'Blue style (old)')}">blue</a></li>
+                    <li><a href="?css=black" title="{php:functionString('_T', 'Black style (very old)')}">black</a></li>
+                    <li><a href="?css=nostyle" title="{php:functionString('_T', 'No style: displays XHTML without style')}">no style</a></li>
                 </ul>
                 <xsl:call-template name="summary"></xsl:call-template>
                 <xsl:apply-templates select="//presentation" />
@@ -71,25 +72,25 @@
                 </ul>
                 <ul>
                     <li>
-                        <a href="http://www.php.net" title="Réalisé en PHP5">
+                        <a href="http://www.php.net" title="PHP5">
                             <img src="http://ulysses.fr/icons/php5-power-grey.png" alt="Powered by PHP5"/>
                         </a>
                         <span>&#160;;</span>
                     </li>
                     <li>
-                        <a href="http://validator.w3.org/check/referer" title="Validation XHTML 1.1">
+                        <a href="http://validator.w3.org/check/referer" title="XHTML 1.1">
                             <img alt="Valide XHTML 1.1" src="http://ulysses.fr/icons/w3c-xhtml1.1-grey.png" />
                         </a>
                         <span>&#160;;</span>
                     </li>
                     <li>
-                        <a href="http://jigsaw.w3.org/css-validator/check/referer" title="Validation CSS 2.0">
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.0">
                             <img alt="Valide CSS 2.0" src="http://ulysses.fr/icons/w3c-css2.0-grey.png" />
                         </a>
                         <span>&#160;;</span>
                     </li>
                     <li>
-                        <a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Exlications sur la conformité de niveau Double-A">
+                        <a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="WAI AA">
                             <img src="http://ulysses.fr/icons/w3c-wai-aa-grey.png" alt="Level Double-A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0" />
                         </a>
                         <span>&#160;;</span>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptif DCdate="2012-10-28" DCdateModif="2012-10-28">
+    <presentation>
+        <para titre="Who am I?">I've been involved in software engineering (design and development of various professional applications in several languages), web (and web-apps) and system administration (mainly with GNU/Linux) for years now.</para>
+        <para>On personnal side, I produce and work with free and open source software only (GPL and others) ; I daily use <lien url="http://fedoraproject.org">Fedora</lien> GNU/Linux distribution.</para>
+        <para>I also campaign to web accessibility for all, and therefore respects established <acronyme>W3C</acronyme> standards (<acronyme>XHTML</acronyme>, <acronyme>CSS</acronyme>, <acronyme>WAI</acronyme>/<acronyme>WCAG</acronyme>, ...).</para>
+    </presentation>
+    <section nom="Curriculum Vitae">
+        <element nom="XHTML version" url="cv-xslt.php" tech="XML - PHP - XSLT">My curriculum Vitae rendered as <acronyme>XHTML</acronyme>. Great for online reading, you will probably prefer <lien url="cv-pdf.php">PDF version</lien> for printing or mailing. <lien url="xml/cv-utf8.xml">CV data file is XML</lien> and rendered using an <lien url="xml/cv-xslt.xsl">XSL stylesheet</lien> via <acronyme>PHP</acronyme>.</element>
+        <element nom="PDF version" url="cv-pdf.php" tech="XML - PHP - FPDF">My Curriculum Vitae rendered as <acronyme>PDF</acronyme>, for printing or mailing, PDF assumes that rendering will be exactly the same everywhere, not as an HTML or word processing software.</element>
+    </section>
+    <section nom="Fedora" commentaire="Distribution GNU/Linux Fedora">
+        <element nom="Packaging" url="https://admin.fedoraproject.org/pkgdb/users/packages/trasher" tech="-">Various application packaging for Fedora official repositories.</element>
+        <element nom="French documentation" url="http://doc.fedora-fr.org" tech="-">Administrator and <lien url="http://doc.fedora-fr.org/w/index.php?title=Spécial:Contributions&#038;tagfilter=&#038;contribs=user&#038;target=JohanCwiklinski&#038;namespace=&#038;year=&#038;month=-1">author for the French Fedora documentation</lien>.</element>
+        <element nom="Borsalinux-fr non profit organization" url="http://borsalinux-fr.org" tech="-">Creation of Borsalinux-fr non profit organisation ; website administrator and members management, website design.</element>
+        <element nom="Translation" url="http://fedoraproject.org/wiki/L10N/Teams/French" tech="-">Involved in various documentation or software translation.</element>
+    </section>
+    <section nom="Projects" commentaire="Applications and projects">
+        <element nom="Galette" url="http://galette.tuxfamily.org" tech="PHP - MySQL/PostgreSQL">Galette project leadership, a free membership management web application towards non profit organizations.</element>
+        <element nom="Pleade" url="http://pleade.com" tech="Java/Cocoon/XML">Documentary search application design and development, search and consult digitized archives. Technologies used: <lien url="http://cocoon.apache.org">cocoon</lien>, <acronyme>XML</acronyme>, <acronyme>XSL</acronyme>, <lien url="http://lucene.apache.org/">Lucene</lien>, <lien url="http://www.nongnu.org/sdx/">SDX</lien>, <lien url="http://mootool.net">MooTools</lien>, ...</element>
+        <element nom="Notix" url="http://notix.org" tech="Java/Cocoon/XML">Documentary search application development, based on <lien url="http://exist.sourceforge.net/">eXist</lien>, <lien url="http://cocoon.apache.org">cocoon</lien>, <acronyme>XML</acronyme>, <acronyme>XSL</acronyme>, <lien url="http://lucene.apache.org/">Lucene</lien> and <lien url="http://www.nongnu.org/sdx/">SDX</lien>.</element>
+        <element nom="Canteen management" url="http://cantine.ulysses.fr" tech="Java">Project leader and developper of a school canteen management application under GPL license for a city hall. Manage families and students, manage presence days, planning (unexpected and anticipated absences, unexpected presences, prepaid presences), billing according to planning, manage holidays and public holidays, printings, ...</element>
+        <element nom="Book collection management" url="http://bibliothek.ulysses.fr" tech="Java">Books collection management written in java, to answer a friend and a personnal requirement. Source code is included in installation package, as well as installation and usage instructions.</element>
+        <element nom="Video collection management" url="http://videotheque.tuxfamily.org/" tech="PHP - MySQL">Written in <acronyme>PHP</acronyme>/MySQL, that application aims to manage a video collection. It supports online collection managements, booking (using authentication), loans management. That application is currently under complete rewrite, only basic features (search and display) are currently available. A <lien url="http://videotheque.tuxfamily.org/videotheque/">demonstration version</lien> is available (login video, password videotheque).</element>
+    </section>
+</descriptif>
