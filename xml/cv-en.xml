@@ -15,7 +15,7 @@
             <ligne>Java applications design and development <em>(JDBC, Swing, JDOM, Servlets, Lucene)</em>, Python, PHP <em>(versions 4 and 5)</em>, ...</ligne>
             <ligne>Servlets design and development with Apache Tomcat, Cocoon, XML database <em>(eXist)</em></ligne>
             <ligne>Relationnal databases design and management <em>(MySQL, PostgreSQL, Access, HSQLDB, Derby)</em></ligne>
-            <ligne>Normalized websites design <em>(XHTML, CSS, WAI, JavaScript, XML, XSL)</em></ligne>
+            <ligne>Normalized websites design <em>(XHTML5, CSS, WAI, JavaScript, XML, XSL)</em></ligne>
         </competence>
         <competence nom="System administration">
             <ligne>GNU/Linux operating system <em>(Red Hat, Fedora, Debian)</em> deployment and administration</ligne>
