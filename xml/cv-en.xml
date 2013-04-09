@@ -2,9 +2,9 @@
 <cv titre="Senior developer\nSystem administrator">
     <coordonnees>
         <nom>CWIKLINSKI</nom><prenom>Johan</prenom>
-        <adresse>6 rue François Lévêque - Appt 88</adresse>
-        <cp>33300</cp><ville>BORDEAUX</ville>
-        <tel>+33 5 56 04 19 13</tel>
+        <adresse>150 Boulevard de la 1ère Division Blindée</adresse>
+        <cp>84000</cp><ville>AVIGNON</ville>
+        <!--<tel>+33 5 56 04 19 13</tel>-->
         <tel>+33 6 12 59 90 91</tel>
         <url>http://ulysses.fr</url>
         <mail>johan@x-tnd.be</mail>
