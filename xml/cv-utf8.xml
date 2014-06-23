@@ -4,11 +4,11 @@
         <nom>CWIKLINSKI</nom><prenom>Johan</prenom>
         <adresse>150 Boulevard de la 1ère Division Blindée</adresse>
         <cp>84000</cp><ville>AVIGNON</ville>
-        <!--<tel>05 56 04 19 13</tel>-->
+        <tel>09 83 50 41 44</tel>
         <tel>06 12 59 90 91</tel>
         <url>http://ulysses.fr</url>
         <mail>johan@x-tnd.be</mail>
-        <comment>32 ans, marié, un enfant</comment>
+        <comment>34 ans, marié, deux enfants - Permis B</comment>
     </coordonnees>
     <competences nom="COMPÉTENCES PROFESSIONNELLES">
         <competence nom="Développement">
@@ -161,7 +161,7 @@
     <titre nom="ACTIVITÉS EXTRA-PROFESSIONNELLES">
         <ligne>
             <annee>Langues</annee>
-            <libelle>Anglais : lu, parlé, écrit<br/>Notions d'espagnol</libelle>
+            <libelle>Anglais : lu, parlé, écrit ; Notions d'espagnol</libelle>
         </ligne>
         <ligne>
             <annee>Loisirs</annee>
@@ -169,7 +169,7 @@
         </ligne>
         <ligne>
             <annee>Projets libres</annee>
-            <libelle>Participation à divers projets libres (<lien url="http://galette.tuxfamily.org">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="http://pypass.org">PyPass</lien>, ...), <lien url="http://x-tnd.be">Auto entrepreneur</lien>.</libelle>
+            <libelle>Participation à divers projets libres (<lien url="http://galette.tuxfamily.org">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, ...), <lien url="http://x-tnd.be">Auto entrepreneur</lien>.</libelle>
         </ligne>
     </titre>
 </cv>

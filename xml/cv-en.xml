@@ -4,11 +4,11 @@
         <nom>CWIKLINSKI</nom><prenom>Johan</prenom>
         <adresse>150 Boulevard de la 1ère Division Blindée</adresse>
         <cp>84000</cp><ville>AVIGNON</ville>
-        <!--<tel>+33 5 56 04 19 13</tel>-->
+        <tel>+33 9 83 50 41 44</tel>
         <tel>+33 6 12 59 90 91</tel>
         <url>http://ulysses.fr</url>
         <mail>johan@x-tnd.be</mail>
-        <comment>32, married, one child</comment>
+        <comment>34, married, two children - Driving liense</comment>
     </coordonnees>
     <competences nom="TECHNICAL SKILLS">
         <competence nom="Development">
@@ -161,7 +161,7 @@
     <titre nom="HOBBIES AND INTERESTS">
         <ligne>
             <annee>Languages</annee>
-            <libelle>English (technical),<br/>Spanish (beginner)</libelle>
+            <libelle>English (technical); Spanish (beginner)</libelle>
         </ligne>
         <ligne>
             <annee>Leisure</annee>
@@ -169,7 +169,7 @@
         </ligne>
         <ligne>
             <annee>Open Source projects</annee>
-            <libelle>Involved in various FOSS projects (<lien url="http://galette.tuxfamily.org">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="http://pypass.org">PyPass</lien>, ...), <lien url="http://x-tnd.be">Self-employed</lien>.</libelle>
+            <libelle>Involved in various FOSS projects (<lien url="http://galette.tuxfamily.org">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, ...), <lien url="http://x-tnd.be">Self-employed</lien>.</libelle>
         </ligne>
     </titre>
 </cv>
