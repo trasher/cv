@@ -24,7 +24,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
 @license   http://www.gnu.org/licenses/gpl-3.0.html GPL License 3.0 or (at your option) any later version
 @link      http://cv.ulysses.fr
 -->
-<descriptif DCdate="2004-01-31" DCdateModif="2010-06-23">
+<descriptif DCdate="2004-01-31" DCdateModif="2014-06-23">
     <presentation>
         <para titre="Qui suis-je ?">Depuis longtemps passionné d'informatique, je possède des connaissances dans les domaines du web (conception et réalisation de sites internet), de la programmation (conception et réalisation d'applications à destination des entreprises ou collectivités dans divers langages de programmation) et de l'administration système (notamment sous <acronyme>GNU</acronyme>/Linux).</para>
         <para>Je développe et utilise uniquement à titre personnel des logiciels libres (<acronyme>GPL</acronyme> entre autres ) ; et j'utilise principalement le système d'exploitation GNU/Linux <lien url="http://fedora-fr.org">Fedora</lien>.</para>
