@@ -1,22 +1,65 @@
 <?php
 
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * PDF version
+ *
+ * PHP version 5
+ *
+ * Copyright © 2007-2014 Johan Cwiklinski
+ *
+ * This file is part of my curriculum vitae (http://cv.ulysses.fr).
+ *
+ * This is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Galette. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @category  Main
+ * @package   CV
+ *
+ * @author    Johan Cwiklinski <johan@x-tnd.be>
+ * @copyright 2007-2014 Johan Cwiklinski
+ * @license   http://www.gnu.org/licenses/gpl-3.0.html GPL License 3.0 or (at your option) any later version
+ * @version   SVN: $Id$
+ * @link      http://cv.ulysses.fr
+ */
+
 require_once 'includes/cv.inc.php';
 require_once 'includes/tcpdf/tcpdf.php';
 
 /**
  * CV Specific PDF class
+ *
+ * @category  Main
+ * @name      PDF
+ * @package   CV
+ * @abstract  Class for expanding TCPDF.
+ * @author    Johan Cwiklinski <johan@x-tnd.be>
+ * @copyright 2007-2014 Johan Cwiklinski
+ * @license   http://www.gnu.org/licenses/gpl-3.0.html GPL License 3.0 or (at your option) any later version
+ * @link      http://cv.ulysses.fr
  */
 class PDF extends TCPDF
 {
-    const TXT_SIZE = 8;        //size for texts
-    const CV_TITLE_SIZE = 13;    //size for CV title
-    const MAIN_TITLE_SIZE = 12;    //size for "main" titles
-    const TITLE_SIZE = 11;        //size for subtitles
-    const COORDS_SIZE = 10;        //size for coordinates block
-    const STD_LINE_H = 6;        //standard line heigth
+    const TXT_SIZE = 8;         //size for texts
+    const CV_TITLE_SIZE = 13;   //size for CV title
+    const MAIN_TITLE_SIZE = 12; //size for "main" titles
+    const TITLE_SIZE = 11;      //size for subtitles
+    const COORDS_SIZE = 10;     //size for coordinates block
+    const STD_LINE_H = 6;       //standard line heigth
 
     public $cptPostes;
-    private $_borders = 0;        //show borders for debug
+    private $_borders = 0;      //show borders for debug
 
     private $_line = array(
         'width' => 0.3,
@@ -36,11 +79,18 @@ class PDF extends TCPDF
     );
 
 
+    /**
+     * Line breaks
+     *
+     * @param string $orig Original text
+     *
+     * @return string
+     */
     function CodeBreaks($orig)
     {
         $array = explode("\\n", $orig);
         $data = $array[0];
-        for ( $i = 1 ; $i < count($array) ; $i++ ) {
+        for ( $i = 1; $i < count($array); $i++ ) {
             $data .= "\n" . $array[$i];
         }
         return $data;
@@ -54,9 +104,7 @@ class PDF extends TCPDF
         $this->Cell(0, self::STD_LINE_H, $arrCoords->prenom . ' ' . $arrCoords->nom, $this->_borders, 1, 'L');
         $this->SetFont('dejavusans', '', self::COORDS_SIZE);
         $this->Cell(0, self::STD_LINE_H, $arrCoords->adresse, $this->_borders, 1, 'L');
-        //$this->SetFont('dejavusansb', '', self::COORDS_SIZE);
         $this->Cell(0, self::STD_LINE_H, $arrCoords->cp . ' ' . $arrCoords->ville, $this->_borders, 1, 'L');
-        //$this->SetFont('dejavusans', '', self::COORDS_SIZE);
         $xval = $this->GetX();
         $yval = $this->GetY();
         $this->Image('images/phone.jpg', $xval, $yval, 5);
@@ -110,12 +158,13 @@ class PDF extends TCPDF
     }
 
     /**
-    * Parse a node looking for subnodes
-    *
-    * @param SimpleXMLObject $node The simple xml node to parse
-    *
-    * @return void
-    */
+     * Parse a node looking for subnodes
+     *
+     * @param SimpleXMLObject $node          The simple xml node to parse
+     * @param integer         $typo_size_var Text size
+     *
+     * @return void
+     */
     function parseNode($node, $typo_size_var = 0)
     {
         $newnode = dom_import_simplexml($node);
@@ -150,7 +199,6 @@ class PDF extends TCPDF
 
     function drawDescription($descriptif)
     {
-        //$this->setY($this->getY() + 1);
         $this->Line($this->getX(), $this->getY(), $this->getX() + 190 , $this->getY(), $this->_dashed_line);
         $this->SetFont('dejavusans', '', self::TXT_SIZE -1);
         foreach ( $descriptif->ligne as $l ) {
@@ -203,11 +251,6 @@ class PDF extends TCPDF
                     $this->MultiCell($libelleW, self::STD_LINE_H, $this->CodeBreaks($line->libelle), $this->_borders, 'L');
                     $this->setY(($this->getY() > $yend) ? $this->getY() +1 : $yend + 1);
                     $this->drawDescription($line->descriptif);
-                    //$y = ($this->getY()>$yend) ? $this->getY() : $yend;
-                    //$y += 1;
-                    /*if ( $count < $this->cptPostes ) {
-                        $this->Line($xorig, $this->getY(), $xorig+190, $this->getY(), $this->_line);
-                    }*/
                 } else {
                     $count++;
                     $this->setY($y);
@@ -218,13 +261,11 @@ class PDF extends TCPDF
                     $this->setX($xorig);
                     $this->Cell(40, self::STD_LINE_H, $line->annee, $this->_borders, 0, 'L');
                     $this->setX($xorig + 40);
-                    //$this->MultiCell(150, self::STD_LINE_H, $this->CodeBreaks($this->parseNode($line->libelle)), $borders, 'L');
                     $this->parseNode($line->libelle);
                     $this->ln();
                     $y = ($this->getY()>$yend) ? $this->getY() : $yend;
                 }
             }
-            //$this->setY(($this->getY()>$yend) ? $this->getY() : $yend);
         }
     }
 }
@@ -248,7 +289,7 @@ $pdf->SetAuthor($cv->coordonnees->prenom . ' ' . $cv->coordonnees->nom);
 $pdf->SetTitle($cv->coordonnees->prenom . ' ' . $cv->coordonnees->nom . ' - Curriculum Vitae');
 $pdf->SetSubject($cv->coordonnees->prenom . ' ' . $cv->coordonnees->nom . ' | ' . str_replace('\n', ' - ', $cv['titre']));
 
-// No hearders and footers
+// No headers and footers
 $pdf->SetPrintHeader(false);
 $pdf->SetPrintFooter(false);
 $pdf->setFooterMargin(0);

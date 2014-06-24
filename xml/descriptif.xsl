@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Description XSLT
+
+Copyright © 2007-2014 Johan Cwiklinski
+
+This file is part of my curriculum vitae (http://cv.ulysses.fr).
+
+This is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Galette. If not, see <http://www.gnu.org/licenses/>.
+
+@author    Johan Cwiklinski <johan@x-tnd.be>
+@copyright 2007-2014 Johan Cwiklinski
+@license   http://www.gnu.org/licenses/gpl-3.0.html GPL License 3.0 or (at your option) any later version
+@link      http://cv.ulysses.fr
+-->
 <xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" exclude-result-prefixes="php">
 <xsl:output method="xml" doctype-public="-//W3C//DTD XHTML 1.1//EN" doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" encoding="UTF-8" indent="yes" omit-xml-declaration="yes"  />
 
