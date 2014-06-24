@@ -268,4 +268,4 @@ $pdf->Coordonnees($arrayCoords[0], $cv['titre']);
 $pdf->Competences($competences[0]);
 $pdf->TraitementPdf($cv);
 $pdf->Output('cv_johan_cwiklinski.pdf', 'I');
-?>
+

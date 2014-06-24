@@ -15,4 +15,4 @@ $inputdom->load($fichier);
 $proc = new XsltProcessor();
 $xsl = $proc->importStylesheet($xsl);
 print $proc->transformToXml($inputdom);
-?>
+

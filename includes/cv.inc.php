@@ -17,4 +17,3 @@ if ( isset($_GET['lang'])
 
 require_once 'lang/' . $session['lang'] . '.php';
 
-?>

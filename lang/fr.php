@@ -20,4 +20,4 @@ $lang['Blue style (old)'] = 'Style « Bleu » (ancien)';
 $lang['Black style (very old)'] = 'Style « Noir » (très ancien)';
 $lang['No style: displays XHTML without style'] = 'Pas de style : affiche le XHTML sans appliquer de style';
 $lang['Select a style:'] = 'Sélectionnez un style :';
-?>
+

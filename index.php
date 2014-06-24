@@ -63,4 +63,4 @@ $proc->setParameter('', 'css', $session['css']);
 $proc->setParameter('', 'lang', $session['lang']);
 $proc->registerPhpFunctions();
 print $proc->transformToXml($inputdom);
-?>
+

@@ -1,5 +1,5 @@
 <?php
-
+$lang = array();
 $lang['Xml document is not valid against associated schema. Please refer to above errors.'] = 'Xml document is not valid against associated schema. Please refer to above errors.';
 $lang['Change language:'] = 'Change language:';
 $lang['Johan Cwiklinski\'s Curriculum Vitae'] = 'Johan Cwiklinski\'s Curriculum Vitae';
@@ -20,4 +20,4 @@ $lang['Blue style (old)'] = 'Blue style (old)';
 $lang['Black style (very old)'] = 'Black style (very old)';
 $lang['No style: displays XHTML without style'] = 'No style: displays XHTML without style';
 $lang['Select a style:'] = 'Select a style:';
-?>
+
