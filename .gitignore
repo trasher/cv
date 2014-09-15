@@ -1,4 +1,6 @@
 .vimfiles*
+.exvim*
 *.vimentry
+*.exvim
 quick_gen_project_*
 includes/tcpdf/
