@@ -57,11 +57,21 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
     </competences>
     <titre nom="PROFESSIONAL EXPERIENCE">
         <ligne>
+            <annee>Since 2013</annee>
+            <libelle>Anaphore, Barbentane</libelle>
+            <poste>Software engineer, System administrator</poste>
+            <descriptif>
+                <ligne>PHP developer (Symfony 2), JavaScript, Apache Solr, project management</ligne>
+                <ligne>System administrator</ligne>
+                <ligne>Manage customers, rollout, guidance</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
             <annee>Since 2012</annee>
             <libelle>Self-employed</libelle>
             <poste>Software engineer</poste>
             <descriptif>
-                <ligne>Various developments, as part of <lien url="http://x-tnd.be">my self-employment activity</lien>.</ligne>
+                <ligne>Various PHP developments, as part of <lien url="http://x-tnd.be">my self-employment activity</lien>.</ligne>
             </descriptif>
         </ligne>
         <ligne>
@@ -80,14 +90,14 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
             <poste>Project manager, System administrator</poste>
             <descriptif>
                 <ligne>J2EE/XSL developer (documentary search applications design, based on XML, Java, Tomcat, Cocoon, ...)</ligne>
-                <ligne>Tests and production dedicated servers deployment (CentOS, Debian): Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, mailing lists (Mailman), Apache Solr</ligne>
+                <ligne>Dedicated servers deployment (CentOS, Debian): Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, Mailman, Apache Solr</ligne>
                 <ligne>Version Control System manager (CVS, Subversion, Mercurial, GIT)</ligne>
                 <ligne>Implement virtualization solutions (VMWare, KVM)</ligne>
                 <ligne>Project management and customers relations</ligne>
                 <ligne>Tender writing</ligne>
             </descriptif>
         </ligne>
-        <ligne>
+        <ligne break="true">
             <annee>2007-2008</annee>
             <libelle>Ministère de l'Écologie - Central Administration</libelle>
             <poste>Java/XML/Tomcat Expert</poste>
@@ -98,12 +108,12 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>System and network administration on the server center infrastructure (Mandriva)</ligne>
             </descriptif>
         </ligne>
-        <ligne break="true">
+        <ligne>
             <annee>2007</annee>
             <libelle>Pandoc/Diodé - Ministère de l'Équipement</libelle>
             <poste>Web - WCAG developer</poste>
             <descriptif>
-                <ligne>Apply XHTML/CSS/WCAG AA standards on various documentary search solutions based on web technologies (Tomcat, Java, XML, Cocoon)</ligne>
+                <ligne>Apply XHTML/CSS/WCAG AA standards on various documentary search solutions (Tomcat, Java, XML, Cocoon)</ligne>
                 <ligne>Deployment and administration of a new Control Version System (Subversion), users training</ligne>
                 <ligne>Development and debuging of Tomcat/Cocoon/Lucene applications</ligne>
             </descriptif>
@@ -113,7 +123,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
             <libelle>S.A.R.L Neximedia, Lille</libelle>
             <poste>Web developer</poste>
             <descriptif>
-                <ligne>PHP/MySQL solutions development and design, XHTML/CSS valid websites creation ; based on Open Source CMS (Joomla, Drupal), specific modules development.</ligne>
+                <ligne>PHP/MySQL solutions development and design, XHTML/CSS valid websites creation (Joomla, Drupal), specific modules development.</ligne>
                 <ligne>Social network portal development</ligne>
                 <ligne>Company servers administration (Apache httpd, MySQL, PHP)</ligne>
             </descriptif>
@@ -140,13 +150,14 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
             </descriptif>
         </ligne>
         <ligne>
-            <annee>2000-2002</annee>
+            <annee>1997-2002</annee>
             <libelle>S.A. SOLIBATI ET DÉCOR, Escautpont</libelle>
             <poste>IT manager</poste>
             <descriptif>
                 <ligne>Company computers management (hardware and software)</ligne>
                 <ligne>Internal business applications design and development</ligne>
                 <ligne>Director board member</ligne>
+                <ligne>Record keeping</ligne>
             </descriptif>
         </ligne>
         <ligne>
@@ -158,20 +169,10 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>Design and Development of an Access application to manage products</ligne>
             </descriptif>
         </ligne>
-        <ligne>
-            <annee>1997</annee>
-            <libelle>S.A.R.L. SOLIDECO, Escautpont</libelle>
-            <poste>IT manager</poste>
-            <descriptif>
-                <ligne>Build network</ligne>
-                <ligne>Installation and configuration of various required softwares</ligne>
-                <ligne>Record keeping</ligne>
-            </descriptif>
-        </ligne>
     </titre>
     <titre nom="EDUCATION">
         <ligne>
-            <annee>2000-2012</annee>
+            <annee>2000-2014</annee>
             <libelle>Self-training (system, network end development).</libelle>
         </ligne>
         <ligne>

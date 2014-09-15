@@ -71,7 +71,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
             <libelle>Auto-Entrepreneur</libelle>
             <poste>Ingénieur développement</poste>
             <descriptif>
-                <ligne>Divers développements, dans le cadre de mon <lien url="http://x-tnd.be">activité d'auto-entrepreneur</lien>.</ligne>
+                <ligne>Divers développements, notamment en PHP, dans le cadre de mon <lien url="http://x-tnd.be">activité d'auto-entrepreneur</lien>.</ligne>
             </descriptif>
         </ligne>
         <ligne>
@@ -170,7 +170,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
     </titre>
     <titre nom="FORMATION">
         <ligne>
-            <annee>2000-2012</annee>
+            <annee>2000-2014</annee>
             <libelle>Formation autodidacte en informatique (système, réseau et développement).</libelle>
         </ligne>
         <ligne>
