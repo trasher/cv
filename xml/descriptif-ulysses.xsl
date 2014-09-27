@@ -46,7 +46,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
                 <meta name="description" content="Johan Cwiklinski : Curriculum Vitae et présentation des réalisations et savoir-faire"/>
                 <meta name="keywords" content="johan, cwiklinski, curriculum vitae, réalisation de sites web, programmation, webmaster, webmestre, java, php, linux, redhat, réseau, logiciels open source, trasher"/>
                 <meta name="author" content="Johan Cwiklinski" />
-                <meta name="geo.placename" content="Bordeaux, Gironde, Aquitaine, France" />
+                <meta name="geo.placename" content="Avignon, Provence-Alpes-Côte d'Azur, Vaucluse, France" />
                 <meta property="http://purl.org/dc/elements/1.1/date http://purl.org/dc/terms/created" content="{/descriptif/@DCdate}"/>
                 <meta property="http://purl.org/dc/elements/1.1/date http://purl.org/dc/terms/modified" content="{/descriptif/@DCdateModif}"/>
                 <link rel="shortcut icon" href="http://ulysses.fr/favicon.jpg"/>
