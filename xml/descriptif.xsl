@@ -80,31 +80,27 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
             </div>
             <div id="w3c">
                 <ul>
-                    <li><a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=116935&amp;t=85"><img alt="Get Firefox!" title="Get Firefox !" src="http://sfx-images.mozilla.org/affiliates/Buttons/80x15/firefox_80x15.png"/></a><span>&#160;;</span></li>
-                    <li><a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=116935&amp;t=179"><img alt="Get Thunderbird!" title="Get Thunderbird !" src="http://sfx-images.mozilla.org/affiliates/thunderbird/thunderbird_blog2.png"/></a><span>.</span></li>
-                </ul>
-                <ul>
                     <li>
-                        <a href="http://www.php.net" title="PHP5">
-                            <img src="http://ulysses.fr/icons/php5-power-grey.png" alt="Powered by PHP5"/>
+                        <a href="http://www.php.net" title="Powered by PHP5">
+                            <img src="images/blue/php5-power.png" alt="PHP5"/>
                         </a>
                         <span>&#160;;</span>
                     </li>
                     <li>
-                        <a href="http://validator.w3.org/check/referer" title="XHTML 1.1">
-                            <img alt="Valide XHTML 1.1" src="http://ulysses.fr/icons/w3c-xhtml1.1-grey.png" />
+                        <a href="http://validator.w3.org/check/referer" title="Valide XHTML 1.1">
+                            <img alt="XHTML 1.1" src="images/blue/w3c-xhtml1.1.png" />
                         </a>
                         <span>&#160;;</span>
                     </li>
                     <li>
-                        <a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.0">
-                            <img alt="Valide CSS 2.0" src="http://ulysses.fr/icons/w3c-css2.0-grey.png" />
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer" title="Valide CSS 2.0">
+                            <img alt="CSS 2.0" src="images/blue/w3c-css2.0.png" />
                         </a>
                         <span>&#160;;</span>
                     </li>
                     <li>
-                        <a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="WAI AA">
-                            <img src="http://ulysses.fr/icons/w3c-wai-aa-grey.png" alt="Level Double-A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0" />
+                        <a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Level Double-A conformance, W3C-WAI Web Content Accessibility Guidelines 1.0">
+                            <img src="images/blue/w3c-wai-aa.png" alt="WAI AA" />
                         </a>
                         <span>&#160;;</span>
                     </li>
