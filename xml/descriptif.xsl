@@ -67,23 +67,11 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
         </head>
         <body>
             <div id="content">
-                <div id="header">
-                    <xsl:if test="$css='black'">
-                    <object type="application/x-shockwave-flash" data="images/trashyland.swf" width="300" height="130">
-                        <param name="movie" value="images/trashyland.swf" />
-                        <param name="quality" value="high" />
-                        <param name="bgcolor" value="#000000" />
-                        <img src="images/trashyland.jpg" alt=""/>
-                    </object>
-                    </xsl:if>
-                    <xsl:value-of select="$space"/>
-                </div>
+                <div id="header"><xsl:value-of select="$space"/></div>
                 <ul id="styleswitcher">
                     <li><xsl:value-of select="php:functionString('_T', 'Select a style:')"/></li>
-
                     <li><a href="?css=ulysses" title="{php:functionString('_T', 'Ulysses style (default)')}" class="current">ulysses</a></li>
                     <li><a href="?css=blue" title="{php:functionString('_T', 'Blue style (old)')}">blue</a></li>
-                    <li><a href="?css=black" title="{php:functionString('_T', 'Black style (very old)')}">black</a></li>
                     <li><a href="?css=nostyle" title="{php:functionString('_T', 'No style: displays XHTML without style')}">no style</a></li>
                 </ul>
                 <xsl:call-template name="summary"></xsl:call-template>

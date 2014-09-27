@@ -110,7 +110,6 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
                     <li><xsl:value-of select="php:functionString('_T', 'Design:')"/></li>
                     <li><a href="?css=ulysses" title="{php:functionString('_T', 'Ulysses style (default)')}" class="current">ulysses</a></li>
                     <li><a href="?css=blue" title="{php:functionString('_T', 'Blue style (old)')}">blue</a></li>
-                    <li><a href="?css=black" title="{php:functionString('_T', 'Black style (very old)')}">black</a></li>
                     <li><a href="?css=nostyle" title="{php:functionString('_T', 'No style: displays XHTML without style')}">no style</a></li>
                 </ul>
             </body>
