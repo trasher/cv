@@ -193,7 +193,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
         </ligne>
         <ligne>
             <annee>Projets libres</annee>
-            <libelle>Participation à divers projets libres (<lien url="http://galette.tuxfamily.org">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, ...), <lien url="http://x-tnd.be">Auto entrepreneur</lien>.</libelle>
+            <libelle><lien url="http://galette.eu">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="https://fedorahosted.org/fedocal/">Fedocal</lien>, <lien url="https://github.com/pypingou/progit">ProGit</lien>, ...</libelle>
         </ligne>
     </titre>
 </cv>
