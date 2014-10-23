@@ -37,7 +37,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
     </coordonnees>
     <competences nom="COMPÉTENCES PROFESSIONNELLES">
         <competence nom="Développement">
-            <ligne>Conception et réalisation d'applications Java <em>(JDBC, Swing, JDOM, Servlets, Lucene)</em>, Python, PHP <em>(versions 4 et 5)</em>, ...</ligne>
+            <ligne>Conception et réalisation d'applications : PHP, Python, Java, ...</ligne>
             <ligne>Conception et réalisation de servlets via Apache Tomcat, Cocoon, bases de données XML <em>(eXist)</em></ligne>
             <ligne>Conception et administration de bases de données relationnelles <em>(MySQL, PostgreSQL, Access, HSQLDB, Derby)</em></ligne>
             <ligne>Création de sites internet normalisés <em>(XHTML5, CSS, WAI, JavaScript, XML, XSL)</em></ligne>

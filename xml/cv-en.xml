@@ -37,7 +37,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
     </coordonnees>
     <competences nom="TECHNICAL SKILLS">
         <competence nom="Development">
-            <ligne>Java applications design and development <em>(JDBC, Swing, JDOM, Servlets, Lucene)</em>, Python, PHP <em>(versions 4 and 5)</em>, ...</ligne>
+            <ligne>Applications design and development: PHP, Python, Java, ...</ligne>
             <ligne>Servlets design and development with Apache Tomcat, Cocoon, XML database <em>(eXist)</em></ligne>
             <ligne>Relationnal databases design and management <em>(MySQL, PostgreSQL, Access, HSQLDB, Derby)</em></ligne>
             <ligne>Normalized websites design <em>(XHTML5, CSS, WAI, JavaScript, XML, XSL)</em></ligne>
