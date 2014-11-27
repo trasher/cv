@@ -84,53 +84,35 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>PHP and JavaScript developer</ligne>
             </descriptif>
         </ligne>
-        <ligne>
+        <ligne break="true">
             <annee>2008-2011</annee>
             <libelle>AJLSM, Bordeaux</libelle>
-            <poste>Project manager, System administrator</poste>
+            <poste>Lead developer, Project manager, System administrator</poste>
             <descriptif>
                 <ligne>J2EE/XSL developer (documentary search applications design, based on XML, Java, Tomcat, Cocoon, ...)</ligne>
                 <ligne>Dedicated servers deployment (CentOS, Debian): Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, Mailman, Apache Solr</ligne>
                 <ligne>Version Control System manager (CVS, Subversion, Mercurial, GIT)</ligne>
                 <ligne>Implement virtualization solutions (VMWare, KVM)</ligne>
                 <ligne>Project management and customers relations</ligne>
-                <ligne>Tender writing</ligne>
             </descriptif>
         </ligne>
-        <ligne break="true">
-            <annee>2007-2008</annee>
+        <ligne>
+            <annee>2006-2008</annee>
             <libelle>Ministère de l'Écologie - Central Administration</libelle>
-            <poste>Java/XML/Tomcat Expert</poste>
+            <poste>Web/PHP/Java/XML/Tomcat Expert</poste>
             <descriptif>
-                <ligne>Documentary search applications design (Tomcat/Cocoon/Lucene)</ligne>
+                <ligne>Apply XHTML/CSS/WCAG AA standards on various documentary search solutions (Tomcat, Java, XML, Cocoon)</ligne>
+                <ligne>Development and debuging of Tomcat/Cocoon/Lucene applications</ligne>
                 <ligne>Documentary search notices management design and development (<lien url="http://notix.org">Notix</lien>)</ligne>
-                <ligne>Deployment on production servers of <lien url="http://notix.org">Notix</lien> solutions, various versions</ligne>
+                <ligne>Development of web services beetween Notix and PMB (PHP)</ligne>
+                <ligne>Deployment on production servers of <lien url="http://notix.org">Notix</lien> solutions</ligne>
+                <ligne>Deployment and administration of a new Control Version System (Subversion), users training</ligne>
                 <ligne>System and network administration on the server center infrastructure (Mandriva)</ligne>
             </descriptif>
         </ligne>
         <ligne>
-            <annee>2007</annee>
-            <libelle>Pandoc/Diodé - Ministère de l'Équipement</libelle>
-            <poste>Web - WCAG developer</poste>
-            <descriptif>
-                <ligne>Apply XHTML/CSS/WCAG AA standards on various documentary search solutions (Tomcat, Java, XML, Cocoon)</ligne>
-                <ligne>Deployment and administration of a new Control Version System (Subversion), users training</ligne>
-                <ligne>Development and debuging of Tomcat/Cocoon/Lucene applications</ligne>
-            </descriptif>
-        </ligne>
-        <ligne>
-            <annee>2006-2007</annee>
-            <libelle>S.A.R.L Neximedia, Lille</libelle>
-            <poste>Web developer</poste>
-            <descriptif>
-                <ligne>PHP/MySQL solutions development and design, XHTML/CSS valid websites creation (Joomla, Drupal), specific modules development.</ligne>
-                <ligne>Social network portal development</ligne>
-                <ligne>Company servers administration (Apache httpd, MySQL, PHP)</ligne>
-            </descriptif>
-        </ligne>
-        <ligne>
             <annee>2004-2006</annee>
-            <libelle>E.U.R.L. HARDWARE et COMMUNICATION, Douai</libelle>
+            <libelle>Hardware et Communication, Douai</libelle>
             <poste>System and Development manager</poste>
             <descriptif>
                 <ligne>Fedora servers deployment and administration (Apache HTTPD, PHP/MySQL, Hylafax)</ligne>
@@ -141,7 +123,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
         </ligne>
         <ligne>
             <annee>2002-2003</annee>
-            <libelle>S.A.R.L. NEUROSYNTHETIC, Lille</libelle>
+            <libelle>Neurosynthetic, Lille</libelle>
             <poste>Web developer</poste>
             <descriptif>
                 <ligne>Showcases websites development (XHTML, CSS, JavaScript)</ligne>
@@ -158,15 +140,6 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>Internal business applications design and development</ligne>
                 <ligne>Director board member</ligne>
                 <ligne>Record keeping</ligne>
-            </descriptif>
-        </ligne>
-        <ligne>
-            <annee>1998-2000</annee>
-            <libelle>DEFOORT NATURAVIE, Valenciennes</libelle>
-            <poste>Database management</poste>
-            <descriptif>
-                <ligne>Products database update and maintainance, cash-register updates, printings</ligne>
-                <ligne>Design and Development of an Access application to manage products</ligne>
             </descriptif>
         </ligne>
     </titre>
@@ -195,7 +168,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
         </ligne>
         <ligne>
             <annee>Open Source projects</annee>
-            <libelle><lien url="http://galette.eu">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="https://fedorahosted.org/fedocal/">Fedocal</lien>, <lien url="https://github.com/pypingou/progit">ProGit</lien>, ...</libelle>
+            <libelle><lien url="http://galette.eu">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="https://github.com/Anaphore.bach">Bach</lien>, <lien url="https://fedorahosted.org/fedocal/">Fedocal</lien>, <lien url="https://github.com/pypingou/progit">ProGit</lien>, ...</libelle>
         </ligne>
     </titre>
 </cv>

@@ -52,7 +52,7 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
             <ligne>Maintenance de <lien url="http://doc.fedora-fr.org/wiki/La_création_de_RPM_pour_les_nuls_:_Création_du_fichier_SPEC_et_du_Paquetage">paquets RPM</lien> pour Fedora</ligne>
             <ligne>Responsable durant 5 ans de la <lien url="http://doc.fedora-fr.org">documentation francophone de Fedora (http://doc.fedora-fr.org)</lien></ligne>
             <ligne>Membre fondateur de <lien url="http://asso.fedora-fr.org">l'association Fedora-fr</lien></ligne>
-            <ligne>Responsable du projet <lien url="http://galette.tuxfamily.org">Galette</lien>, un un outil de gestion d’adhérents et de cotisations en ligne à destination des associations</ligne>
+            <ligne>Responsable du projet <lien url="http://galette.eu">Galette</lien>, un un outil de gestion d'adhérents et de cotisations en ligne à destination des associations</ligne>
         </competence>
     </competences>
     <titre nom="EXPÉRIENCE PROFESSIONNELLE">
@@ -79,14 +79,15 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
             <libelle>Bob el Web, Bordeaux</libelle>
             <poste>Ingénieur d'études Web, Adminsistrateur système</poste>
             <descriptif>
+                <ligne>Réferent technique</ligne>
                 <ligne>Développeur PHP et JavaScript, gestion et suivi des projets</ligne>
                 <ligne>Administrateur système (Debian GNU/Linux et Fedora)</ligne>
             </descriptif>
         </ligne>
-        <ligne>
+        <ligne break="true">
             <annee>2008-2011</annee>
             <libelle>AJLSM, Bordeaux</libelle>
-            <poste>Chef de projet, Administrateur système</poste>
+            <poste>Développeur, Chef de projet, Administrateur système</poste>
             <descriptif>
                 <ligne>Développeur J2EE/XSL (création de logiciels documentaires basés sur les technologies XML, Java, Tomcat, Cocoon, ...)</ligne>
                 <ligne>Déploiement et administration (CentOS, Debian) : Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, Mailman, Apache Solr</ligne>
@@ -95,35 +96,18 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>Gestion et suivi des projets avec les clients</ligne>
             </descriptif>
         </ligne>
-        <ligne break="true">
-            <annee>2007-2008</annee>
-            <libelle>Ministère de l'Écologie - Administration Centrale</libelle>
-            <poste>Expert Java/XML/Tomcat</poste>
-            <descriptif>
-                <ligne>Conception et réalisation d'applications de recherche documentaire (Tomcat/Cocoon/Lucene)</ligne>
-                <ligne>Développement d'une application de gestion de notices documentaires (<lien url="http://notix.org">Notix</lien>)</ligne>
-                <ligne>Déploiement en production de la solution <lien url="http://notix.org">Notix</lien>, sous différentes versions</ligne>
-                <ligne>Administration système et réseaux sur l'infrastructure du centre serveur (Mandriva)</ligne>
-            </descriptif>
-        </ligne>
         <ligne>
-            <annee>2007</annee>
-            <libelle>Pandoc/Diodé - Ministère de l'Équipement</libelle>
-            <poste>Développeur Web - WCAG</poste>
+            <annee>2006-2008</annee>
+            <libelle>Ministère de l'Écologie - Administration Centrale</libelle>
+            <poste>Expert Web/PHP/Java/XML/Tomcat</poste>
             <descriptif>
                 <ligne>Mise en conformité XHTML/CSS/WCAG AA de solutions de recherche documentaire (Tomcat, Java, XML, Cocoon)</ligne>
-                <ligne>Mise en place et administration d'un système de gestion de versions (Subversion), formation des utilisateurs</ligne>
                 <ligne>Développement et déboguage d'applications Tomcat/Cocoon/Lucene</ligne>
-            </descriptif>
-        </ligne>
-        <ligne>
-            <annee>2006-2007</annee>
-            <libelle>Neximedia, Lille</libelle>
-            <poste>Développeur Web</poste>
-            <descriptif>
-                <ligne>Développement de solutions PHP/MySQL, création de sites web valides XHTML/CSS (Joomla, Drupal), développement spécifiques.</ligne>
-                <ligne>Développement d'un portail pour un site de réseaux sociaux</ligne>
-                <ligne>Administration du serveur dédié de l'entreprise (Apache httpd, MySQL, PHP)</ligne>
+                <ligne>Développement d'une application de gestion de notices documentaires (<lien url="http://notix.org">Notix</lien>)</ligne>
+                <ligne>Développement de services Web de mise en relation de Notix et PMB (PHP)</ligne>
+                <ligne>Déploiement en production de la solution <lien url="http://notix.org">Notix</lien>, sous différentes versions</ligne>
+                <ligne>Mise en place et administration d'un système de gestion de versions (Subversion), formation des utilisateurs</ligne>
+                <ligne>Administration système et réseaux sur l'infrastructure du centre serveur (Mandriva)</ligne>
             </descriptif>
         </ligne>
         <ligne>
@@ -158,15 +142,6 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>Tenue de la comptabilité et de la paye</ligne>
             </descriptif>
         </ligne>
-        <ligne>
-            <annee>1998-2000</annee>
-            <libelle>DEFOORT NATURAVIE, Valenciennes</libelle>
-            <poste>Gestion Informatique</poste>
-            <descriptif>
-                <ligne>Mise à jour de la base de données de gestion des produits, exports vers la caisse, production d'états</ligne>
-                <ligne>Développement d'une application sous Access pour la gestion des produits</ligne>
-            </descriptif>
-        </ligne>
     </titre>
     <titre nom="FORMATION">
         <ligne>
@@ -192,8 +167,8 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
             <libelle>Lecture, vidéo, graphisme, musique</libelle>
         </ligne>
         <ligne>
-            <annee>Projets libres</annee>
-            <libelle><lien url="http://galette.eu">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="https://fedorahosted.org/fedocal/">Fedocal</lien>, <lien url="https://github.com/pypingou/progit">ProGit</lien>, ...</libelle>
+            <annee>Open source</annee>
+            <libelle><lien url="http://galette.eu">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="https://github.com/Anaphore.bach">Bach</lien>, <lien url="https://fedorahosted.org/fedocal/">Fedocal</lien>, <lien url="https://github.com/pypingou/progit">ProGit</lien>, ...</libelle>
         </ligne>
     </titre>
 </cv>
