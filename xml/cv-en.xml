@@ -43,42 +43,57 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
         <competence nom="Development">
             <ligne>Applications design and development: PHP, Python, Java, ...</ligne>
             <ligne>Servlets design and development with Apache Tomcat, Cocoon, XML database <em>(eXist)</em></ligne>
-            <ligne>Relationnal databases design and management <em>(MySQL, PostgreSQL, Access, HSQLDB, Derby)</em></ligne>
+            <ligne>Relationnal databases design and management <em>(MySQL, PostgreSQL, ...), NoSQL (MongoDB, ...)</em></ligne>
             <ligne>Normalized websites design <em>(XHTML5, CSS, WAI, JavaScript, XML, XSL)</em></ligne>
         </competence>
         <competence nom="System administration">
-            <ligne>GNU/Linux operating system <em>(Red Hat, Fedora, Debian)</em> deployment and administration</ligne>
+            <ligne>GNU/Linux operating system <em>(Red Hat, CentOS, Fedora, Debian)</em> deployment and administration</ligne>
             <ligne>Servers administration <em>(Apache, Git, Mercurial, Subversion, Postfix, MySQL, PostgreSQL)</em></ligne>
             <ligne>TCP/IP, Ethernet and Wi-Fi networks installation and management</ligne>
+            <ligne>Virtual machines (KVM, VMWare, ...) and containers (Docker) management</ligne>
         </competence>
         <competence nom="Information Technology">
             <ligne>Basic cryptography knowledge <em>(SSL, GnuPG)</em>, The Gimp notions</ligne>
             <ligne><lien url="http://doc.fedora-fr.org/wiki/La_création_de_RPM_pour_les_nuls_:_Création_du_fichier_SPEC_et_du_Paquetage">RPM Package</lien> maintainer for Fedora</ligne>
             <ligne><lien url="http://doc.fedora-fr.org">French speaking Fedora documentation (http://doc.fedora-fr.org)</lien> leader for 5 years</ligne>
             <ligne><lien url="http://borsalinux-fr.org/">Fedora-fr non profit organization</lien> founding member</ligne>
-            <ligne>Project leader of <lien url="http://galette.tuxfamily.org">Galette</lien>, a Free (as in freedom!) membership management web application towards non profit organizations</ligne>
+            <ligne>Project leader of <lien url="http://galette.eu">Galette</lien>, a Free (as in freedom!) membership management web application towards non profit organizations</ligne>
         </competence>
     </competences>
     <titre nom="PROFESSIONAL EXPERIENCE">
         <ligne>
-            <annee>Since 2013</annee>
+            <annee>Depuis 2014</annee>
+            <libelle>MyWebMarketing, Montpellier</libelle>
+            <poste>Software engineer, System administrator</poste>
+            <descriptif>
+                <ligne>Business applications development (real estate, e-commerce, big data, ...)</ligne>
+                <ligne>PHP developments, based on Symfony 2 framework or Slim micro framework</ligne>
+                <ligne>Project management</ligne>
+                <ligne>Dedicated servers deployment and maintainance (CentOS, Debian)</ligne>
+                <ligne>GIT deployment for code versionning, tech users</ligne>
+                <ligne>Continous intergration server (Jenkins) deployment for different projects</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>2013-2014</annee>
             <libelle>Anaphore, Barbentane</libelle>
             <poste>Software engineer, System administrator</poste>
             <descriptif>
-                <ligne>PHP developer (Symfony 2), JavaScript, Apache Solr, project management</ligne>
+                <ligne>Documentary search application development based on Apache Solr search engine with Symfony 2</ligne>
+                <ligne>PHP developer (Symfony 2 among others), JavaScript, Apache Solr, project management</ligne>
                 <ligne>System administrator</ligne>
                 <ligne>Manage customers, rollout, guidance</ligne>
             </descriptif>
         </ligne>
         <ligne>
-            <annee>Since 2012</annee>
+            <annee>2012-2016</annee>
             <libelle>Self-employed</libelle>
             <poste>Software engineer</poste>
             <descriptif>
                 <ligne>Various PHP developments, as part of <lien url="http://x-tnd.be">my self-employment activity</lien>.</ligne>
             </descriptif>
         </ligne>
-        <ligne>
+        <ligne break="true">
             <annee>2011-2013</annee>
             <libelle>Bob el Web, Bordeaux</libelle>
             <poste>Web software engineer, System administrator</poste>
@@ -88,15 +103,14 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>PHP and JavaScript developer</ligne>
             </descriptif>
         </ligne>
-        <ligne break="true">
+        <ligne>
             <annee>2008-2011</annee>
             <libelle>AJLSM, Bordeaux</libelle>
             <poste>Lead developer, Project manager, System administrator</poste>
             <descriptif>
                 <ligne>J2EE/XSL developer (documentary search applications design, based on XML, Java, Tomcat, Cocoon, ...)</ligne>
-                <ligne>Dedicated servers deployment (CentOS, Debian): Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, Mailman, Apache Solr</ligne>
+                <ligne>Dedicated servers deployment (CentOS, Debian): Tomcat, Apache, PostgreSQL, MySQL, PHP, Virtualisation (KVM, VMWare)</ligne>
                 <ligne>Version Control System manager (CVS, Subversion, Mercurial, GIT)</ligne>
-                <ligne>Implement virtualization solutions (VMWare, KVM)</ligne>
                 <ligne>Project management and customers relations</ligne>
             </descriptif>
         </ligne>
@@ -143,13 +157,12 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>Company computers management (hardware and software)</ligne>
                 <ligne>Internal business applications design and development</ligne>
                 <ligne>Director board member</ligne>
-                <ligne>Record keeping</ligne>
             </descriptif>
         </ligne>
     </titre>
     <titre nom="EDUCATION">
         <ligne>
-            <annee>2000-2014</annee>
+            <annee>2000-2016</annee>
             <libelle>Self-training (system, network end development).</libelle>
         </ligne>
         <ligne>
@@ -168,11 +181,11 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
         </ligne>
         <ligne>
             <annee>Leisure</annee>
-            <libelle>Reading, cinema, graphism, music</libelle>
+            <libelle>Reading, cinema, graphism, music, moto</libelle>
         </ligne>
         <ligne>
             <annee>Open Source projects</annee>
-            <libelle><lien url="http://galette.eu">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="https://github.com/Anaphore.bach">Bach</lien>, <lien url="https://fedorahosted.org/fedocal/">Fedocal</lien>, <lien url="https://github.com/pypingou/progit">ProGit</lien>, ...</libelle>
+            <libelle><lien url="http://galette.eu">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="https://github.com/Anaphore.bach">Bach</lien>, <lien url="https://fedorahosted.org/fedocal/">Fedocal</lien>, <lien url="https://github.com/pypingou/pagure">Pagure</lien>, ...</libelle>
         </ligne>
     </titre>
 </cv>

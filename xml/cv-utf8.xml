@@ -43,13 +43,14 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
         <competence nom="Développement">
             <ligne>Conception et réalisation d'applications : PHP, Python, Java, ...</ligne>
             <ligne>Conception et réalisation de servlets via Apache Tomcat, Cocoon, bases de données XML <em>(eXist)</em></ligne>
-            <ligne>Conception et administration de bases de données relationnelles <em>(MySQL, PostgreSQL, Access, HSQLDB, Derby)</em></ligne>
+            <ligne>Conception et administration de bases de données relationnelles <em>(MySQL, PostgreSQL, ...), NoSQL (MongoDB, ...)</em></ligne>
             <ligne>Création de sites internet normalisés <em>(XHTML5, CSS, WAI, JavaScript, XML, XSL)</em></ligne>
         </competence>
         <competence nom="Administration système">
+            <ligne>Configuration et administration de systèmes d'exploitation : GNU/Linux <em>(Red Hat, CentOS, Fedora, Debian)</em>, Windows</ligne>
             <ligne>Administration de serveurs <em>(Apache, Git, Mercurial, Subversion, Postfix, MySQL, PostgreSQL)</em></ligne>
-            <ligne>Configuration et administration de systèmes d'exploitation : GNU/Linux <em>(Red Hat, Fedora, Debian)</em>, Windows</ligne>
             <ligne>Installation et administration de réseaux TCP/IP, Ethernet, Wi-Fi</ligne>
+            <ligne>Création et exploitation de machines virtuelles (KVM, VMWare, ...) ou de conteneurs (Docker)</ligne>
         </competence>
         <competence nom="Informatique générale">
             <ligne>Connaissances de base de Gimp, cryptographie <em>(SSL, GnuPG)</em></ligne>
@@ -61,24 +62,38 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
     </competences>
     <titre nom="EXPÉRIENCE PROFESSIONNELLE">
         <ligne>
-            <annee>Depuis 2013</annee>
+            <annee>Depuis 2014</annee>
+            <libelle>MyWebMarketing, Montpellier</libelle>
+            <poste>Ingénieur développement, Administrateur système</poste>
+            <descriptif>
+                <ligne>Développement d'applications métiers (annonces immobilières, e-commerce, big data, ...)</ligne>
+                <ligne>Développements PHP, basés sur le framework Symfony ou le micro framework Slim</ligne>
+                <ligne>Gestion et suivi des projets</ligne>
+                <ligne>Installation et maintenance des serveurs (CentOS, Debian)</ligne>
+                <ligne>Mise en place de GIT pour le versionnage des sources, formation des utilisateurs</ligne>
+                <ligne>Mise en place d'un service d'intégration continue (Jenkins) sur différents projets</ligne>
+            </descriptif>
+        </ligne>
+        <ligne>
+            <annee>2013-2014</annee>
             <libelle>Anaphore, Barbentane</libelle>
             <poste>Ingénieur développement, Administrateur système</poste>
             <descriptif>
-                <ligne>Développeur PHP (Symfony 2), JavaScript, Apache Solr, gestion et suivi des projets</ligne>
+                <ligne>Développement d'une application Symfony 2 de recherche documentaire basée sur le moteur de recherche Apache Solr</ligne>
+                <ligne>Développeur PHP (Symfony 2 entre autres), JavaScript, Apache Solr, gestion et suivi des projets</ligne>
                 <ligne>Administrateur système</ligne>
                 <ligne>Suivi et gestion des clients, déploiements sur site, conseil</ligne>
             </descriptif>
         </ligne>
         <ligne>
-            <annee>Depuis 2012</annee>
+            <annee>2012-2016</annee>
             <libelle>Auto-Entrepreneur</libelle>
             <poste>Ingénieur développement</poste>
             <descriptif>
                 <ligne>Divers développements, notamment en PHP, dans le cadre de mon <lien url="http://x-tnd.be">activité d'auto-entrepreneur</lien>.</ligne>
             </descriptif>
         </ligne>
-        <ligne>
+        <ligne break="true">
             <annee>2011-2013</annee>
             <libelle>Bob el Web, Bordeaux</libelle>
             <poste>Ingénieur d'études Web, Adminsistrateur système</poste>
@@ -88,15 +103,14 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>Administrateur système (Debian GNU/Linux et Fedora)</ligne>
             </descriptif>
         </ligne>
-        <ligne break="true">
+        <ligne>
             <annee>2008-2011</annee>
             <libelle>AJLSM, Bordeaux</libelle>
             <poste>Développeur, Chef de projet, Administrateur système</poste>
             <descriptif>
                 <ligne>Développeur J2EE/XSL (création de logiciels documentaires basés sur les technologies XML, Java, Tomcat, Cocoon, ...)</ligne>
-                <ligne>Déploiement et administration (CentOS, Debian) : Tomcat, Apache, PostgreSQL, MySQL, PHP, Postfix, Mailman, Apache Solr</ligne>
+                <ligne>Déploiement et administration (CentOS, Debian) : Tomcat, Apache, PostgreSQL, MySQL, PHP, Virtualisation (KVM, VMWare)</ligne>
                 <ligne>Responsable des systèmes de gestion de versions (CVS, Subversion, Mercurial, GIT)</ligne>
-                <ligne>Mise en oeuvre de solutions de virtualisation (VMWare, KVM)</ligne>
                 <ligne>Gestion et suivi des projets avec les clients</ligne>
             </descriptif>
         </ligne>
@@ -143,13 +157,12 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
                 <ligne>Mise en place et administration du parc informatique de la société (matériel et logiciel)</ligne>
                 <ligne>Développement d'applications métiers spécifiques au fonctionnement de l'entreprise</ligne>
                 <ligne>Membre du Conseil d'Administration</ligne>
-                <ligne>Tenue de la comptabilité et de la paye</ligne>
             </descriptif>
         </ligne>
     </titre>
     <titre nom="FORMATION">
         <ligne>
-            <annee>2000-2014</annee>
+            <annee>2000-2016</annee>
             <libelle>Formation autodidacte en informatique (système, réseau et développement).</libelle>
         </ligne>
         <ligne>
@@ -168,11 +181,11 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
         </ligne>
         <ligne>
             <annee>Loisirs</annee>
-            <libelle>Lecture, vidéo, graphisme, musique</libelle>
+            <libelle>Lecture, vidéo, graphisme, musique, moto</libelle>
         </ligne>
         <ligne>
             <annee>Open source</annee>
-            <libelle><lien url="http://galette.eu">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="https://github.com/Anaphore.bach">Bach</lien>, <lien url="https://fedorahosted.org/fedocal/">Fedocal</lien>, <lien url="https://github.com/pypingou/progit">ProGit</lien>, ...</libelle>
+            <libelle><lien url="http://galette.eu">Galette</lien>, <lien url="http://fedora-fr.org">Fedora</lien>, <lien url="http://notix.org">Notix</lien>, <lien url="https://github.com/Anaphore.bach">Bach</lien>, <lien url="https://fedorahosted.org/fedocal/">Fedocal</lien>, <lien url="https://github.com/pypingou/pagure">Pagure</lien>, ...</libelle>
         </ligne>
     </titre>
 </cv>
