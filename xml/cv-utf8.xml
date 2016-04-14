@@ -27,13 +27,13 @@ along with sources. If not, see <http://www.gnu.org/licenses/>.
 <cv titre="Développeur sénior\nAdministrateur système">
     <coordonnees>
         <nom>CWIKLINSKI</nom><prenom>Johan</prenom>
-        <adresse>150 Boulevard de la 1ère Division Blindée</adresse>
-        <cp>84000</cp><ville>AVIGNON</ville>
-        <tel>09 83 50 41 44</tel>
+        <adresse>17 rue des Mûriers</adresse>
+        <cp>34150</cp><ville>GIGNAC</ville>
+        <!--tel>09 83 50 41 44</tel-->
         <tel>06 12 59 90 91</tel>
         <url>http://ulysses.fr</url>
         <mail>johan@x-tnd.be</mail>
-        <comment>34 ans, marié, deux enfants - Permis B</comment>
+        <comment>36 ans, marié, deux enfants - Permis A et B</comment>
     </coordonnees>
     <externes>
         <externe nom="GitHub" url="https://github.com/trasher"/>
