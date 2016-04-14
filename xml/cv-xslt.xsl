@@ -53,6 +53,10 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
                 </xsl:call-template>
             </h1>
             <xsl:apply-templates select="coordonnees"/>
+            <div class="externals">
+                <p>Liens externes</p>
+                <xsl:apply-templates select="externes"/>
+            </div>
             <div class="cv">
                 <xsl:apply-templates select="competences" />
                 <xsl:apply-templates select="titre"/>
@@ -98,6 +102,20 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
             </xsl:element>
             <xsl:if test="position() &lt; count(//url)"><xsl:value-of select="$space"/>-<xsl:value-of select="$space"/></xsl:if>
         </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template match="externes">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+
+    <xsl:template match="externe">
+        <li>
+            <a href="{@url}">
+                <xsl:value-of select="@nom"/>
+            </a>
+        </li>
     </xsl:template>
 
     <xsl:template match="competences">

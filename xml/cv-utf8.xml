@@ -2,7 +2,7 @@
 <!--
 Curriculum vitae, french version
 
-Copyright © 2007-2014 Johan Cwiklinski
+Copyright © 2007-2016 Johan Cwiklinski
 
 This file is part of my curriculum vitae (http://cv.ulysses.fr).
 
@@ -17,10 +17,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Galette. If not, see <http://www.gnu.org/licenses/>.
+along with sources. If not, see <http://www.gnu.org/licenses/>.
 
 @author    Johan Cwiklinski <johan@x-tnd.be>
-@copyright 2007-2014 Johan Cwiklinski
+@copyright 2007-2016 Johan Cwiklinski
 @license   http://www.gnu.org/licenses/gpl-3.0.html GPL License 3.0 or (at your option) any later version
 @link      http://cv.ulysses.fr
 -->
@@ -35,6 +35,10 @@ along with Galette. If not, see <http://www.gnu.org/licenses/>.
         <mail>johan@x-tnd.be</mail>
         <comment>34 ans, marié, deux enfants - Permis B</comment>
     </coordonnees>
+    <externes>
+        <externe nom="GitHub" url="https://github.com/trasher"/>
+        <externe nom="Bitbucket" url="https://bitbucket.org/trashy/"/>
+    </externes>
     <competences nom="COMPÉTENCES PROFESSIONNELLES">
         <competence nom="Développement">
             <ligne>Conception et réalisation d'applications : PHP, Python, Java, ...</ligne>

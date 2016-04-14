@@ -101,6 +101,12 @@ ul{
     font-style:italic;
 }
 
+.externals * {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
 @media (max-width: 640px) {
 
     /* passer tous les éléments de largeur fixe en largeur automatique */
